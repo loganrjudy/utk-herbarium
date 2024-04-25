@@ -161,7 +161,7 @@ WHERE tblSpecies.SpeciesID = %s", GetSQLValueString($colname_getPost, "int"));
 
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
-$row_getPost = mysql_fetch_assoc($getPost);
+$row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 ?>
 
@@ -196,12 +196,12 @@ $totalRows_getPost = mysql_num_rows($getPost);
 				 
 				$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
 				$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-				$row_getPosts = mysql_fetch_assoc($getPosts);
+				$row_getPosts = mysqli_fetch_assoc($getPosts);
 				$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['GenusID']; ?>"><?php echo $row_getPosts['GenusName']; ?></option>
-		  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+		  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
       </select>
 	</p>
 	<p>
@@ -243,12 +243,12 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		 
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-		$row_getPosts = mysql_fetch_assoc($getPosts);
+		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['FedStatusID']; ?>"><?php echo $row_getPosts['FedStatus']; ?></option>
-		  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+		  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
       </select>
 	</p>
 	<p>
@@ -260,12 +260,12 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		 
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-		$row_getPosts = mysql_fetch_assoc($getPosts);
+		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['StateStatusID']; ?>"><?php echo $row_getPosts['StateStatus']; ?></option>
-		  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+		  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
       </select>
 	</p>
 	<p>
@@ -277,12 +277,12 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		 
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-		$row_getPosts = mysql_fetch_assoc($getPosts);
+		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['NWI']; ?>"><?php echo $row_getPosts['NWIStatus']; ?></option>
-		  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+		  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
       </select>
 	</p>
 	<p>
@@ -310,7 +310,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		WHERE tblSpecies.SpeciesID = '$species'";
 		  
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-		$row_getPosts = mysql_fetch_assoc($getPosts);
+		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		<?php do { ?>
@@ -318,7 +318,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
     			<td><?php echo $row_getPosts['CountyName']; ?></td>
 				<td width="60"><a class="btn btn-smokey btn-block" href="delete_county.php?SpeciesID=<?php echo $row_getPosts['SpeciesID']; ?>&CountyID=<?php echo $row_getPosts['CountyID']; ?>" style="font-size: 14px;"><strong>Remove</strong></a></td>
     		</tr>
-     	<?php } while ($row_getPosts = mysql_fetch_assoc($getPosts))?>
+     	<?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts))?>
      </table> 
      <p><a href="species_county.php">Click here to associate a county with a species.</a></p>
      <p>

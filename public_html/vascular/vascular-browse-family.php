@@ -73,7 +73,7 @@ $current_char = '';
 								  <h5 align="center"><A href="vascular-browse-family.php#A">A</A> <A href="vascular-browse-family.php#B">B</A> <A href="vascular-browse-family.php#C">C</A> <A href="vascular-browse-family.php#D">D</A> <A href="vascular-browse-family.php#E">E</A> <A href="vascular-browse-family.php#F">F</A> <A href="vascular-browse-family.php#G">G</A> <A href="vascular-browse-family.php#H">H</A> <A href="vascular-browse-family.php#I">I</A> <A href="vascular-browse-family.php#J">J</A> K <A href="vascular-browse-family.php#L">L</A> <A href="vascular-browse-family.php#M">M</A> <A href="vascular-browse-family.php#N">N</A> <A href="vascular-browse-family.php#O" linkindex="20">O</A> <A href="vascular-browse-family.php#P">P</A> Q <A href="vascular-browse-family.php#R">R</A> <A href="vascular-browse-family.php#S">S</A> <A href="vascular-browse-family.php#T">T</A> <A href="vascular-browse-family.php#U">U</A> <A href="vascular-browse-family.php#V">V</A> <A href="vascular-browse-family.php#W">W</A> <A href="vascular-browse-family.php#X" linkindex="29" set="yes">X</A> Y <A href="vascular-browse-family.php#Z" linkindex="31" set="yes">Z</A></h5>
 
 									<?php									
-									while ($row_getPosts = mysql_fetch_assoc($getPosts)) {
+									while ($row_getPosts = mysqli_fetch_assoc($getPosts)) {
 										if ($row_getPosts['first_char'] != $current_char) {
 											$current_char = $row_getPosts['first_char'];?>
 											<br clear="all" /><h3 id="<?php echo strtoupper($current_char);?>">- <?php echo strtoupper($current_char); ?> -</h3>

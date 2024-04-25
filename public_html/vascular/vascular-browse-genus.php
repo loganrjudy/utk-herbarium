@@ -81,7 +81,7 @@ $current_char = '';
 										  <div class="one-fourth column" style="margin: 0px;">
 										 	<a href = "vascular-browse-genus-results.php?GenusName=<?php echo $row_getPosts['GenusName']; ?>"><?php echo $row_getPosts['GenusName'];?> </a><br />
 											</div>
-									<?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+									<?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
 									
 								  <br clear="all" />
 								  <hr>

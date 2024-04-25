@@ -181,7 +181,7 @@ $start=($id-1)*$limit;
 			 
 			$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID WHERE (GenusName LIKE '%$query%') OR (SpeciesName LIKE '%$query%') OR (Author LIKE '%$query%') ORDER BY GenusName, SpeciesName ASC LIMIT $start, $limit";
 			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-			$row_getPosts = mysql_fetch_assoc($getPosts);
+			$row_getPosts = mysqli_fetch_assoc($getPosts);
 			$totalRows_getPosts = mysql_num_rows($getPosts);
 			
 			if(mysql_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
@@ -267,7 +267,7 @@ $start=($id-1)*$limit;
 					} ?></td>
 			  <td width="60" style="text-align:center;"><a class="btn btn-smokey btn-block" href="delete_species.php?SpeciesID=<?php echo $row_getPosts['SpeciesID']; ?>" style="font-size: 14px;"><strong>Delete</strong></a></td>
             </tr>
-		    <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)); ?>
+		    <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)); ?>
           </table>
           <br clear="all" />
           <?php  

@@ -154,7 +154,7 @@ $start=($id-1)*$limit;
 			 
 			$query_getPosts = "SELECT * FROM tblGenus WHERE (GenusName LIKE '%$query%') OR (G_Author LIKE '%$query%') OR (G_CommName LIKE '%$query%') ORDER BY GenusName ASC LIMIT $start, $limit";
 			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-			$row_getPosts = mysql_fetch_assoc($getPosts);
+			$row_getPosts = mysqli_fetch_assoc($getPosts);
 			$totalRows_getPosts = mysql_num_rows($getPosts);
 			
 			if(mysql_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
@@ -175,7 +175,7 @@ $start=($id-1)*$limit;
 			  <td><?php echo $row_getPosts['G_CommName']; ?></td>
 			  <td width="60" style="text-align:center;"><a class="btn btn-smokey btn-block" href="delete_genus.php?GenusID=<?php echo $row_getPosts['GenusID']; ?>">DELETE</a></td>
             </tr>
-		    <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)); ?>
+		    <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)); ?>
           </table>
           <br clear="all" />
           <?php 

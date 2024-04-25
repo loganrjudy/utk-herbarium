@@ -143,7 +143,7 @@ if (isset($_GET['CommID'])) {
 $query_getPost = sprintf("SELECT * FROM tblCommonName WHERE CommID = %s", GetSQLValueString($colname_getPost, "int"));
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
-$row_getPost = mysql_fetch_assoc($getPost);
+$row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 ?>
 

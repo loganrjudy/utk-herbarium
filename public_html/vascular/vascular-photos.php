@@ -58,13 +58,13 @@ $query_getPost1 = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies
 
 $getPost1 =mysqli_query($Herbarium, $query_getPost1)
  or die(mysql_error());
-$row_getPost1 = mysql_fetch_assoc($getPost1);
+$row_getPost1 = mysqli_fetch_assoc($getPost1);
 $totalRows_getPost1 = mysql_num_rows($getPost1);
 
 $selectCount = "SELECT COUNT(tblSpecies.SpeciesName) AS CountOfSpeciesName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN tblPhoto ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE (tblPhoto.PhotoName IS NOT NULL || tblPhoto.SeedPhotoName IS NOT NULL) && tblGenus.GenusName='$varGenus'";
 	
 $varCount =mysqli_query($selectCount);
-$countSpecies = mysql_fetch_assoc($varCount);
+$countSpecies = mysqli_fetch_assoc($varCount);
 
 ?>
 
@@ -115,7 +115,7 @@ $countSpecies = mysql_fetch_assoc($varCount);
                                     <?php if ($row_getPost1['Seed'] == 'Yes'){ ?>
                                             <h4>Seed Photos</h4>
                                     <?php 									
-									while ($row_getPost = mysql_fetch_assoc($getPost)) {
+									while ($row_getPost = mysqli_fetch_assoc($getPost)) {
 										if ((empty($row_getPost['PhotoName'])) && (!empty($row_getPost['SeedPhotoName']))) {
 										$seedcount = $seedcount+1 ?>
 										  <div class="one-fourth column" align="center" style="height: 175px;">
@@ -128,7 +128,7 @@ $countSpecies = mysql_fetch_assoc($varCount);
                                     <?php }?>
                                     
 									<?php									
-									while ($row_getPosts = mysql_fetch_assoc($getPosts)) {
+									while ($row_getPosts = mysqli_fetch_assoc($getPosts)) {
 										if ($row_getPosts['PhotoName'] != "") {
 										$numcount = $numcount+1 ?>
 										  <div class="one-fourth column" align="center" style="height: 175px;">

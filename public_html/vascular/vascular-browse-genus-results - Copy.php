@@ -63,7 +63,7 @@ ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author;";
 	
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
-$row_getPost = mysql_fetch_assoc($getPost);
+$row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 
 
@@ -139,7 +139,7 @@ $SpeciesLast  = 'NA';
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; <?php echo $row_getPost['Synonym']; ?>
 															<?php } ?>
 													</ul>
-										<?php } while ($row_getPost = mysql_fetch_assoc($getPost)); ?>
+										<?php } while ($row_getPost = mysqli_fetch_assoc($getPost)); ?>
 								  <hr>
 								  <h6><a href="vascular-description.php">*Description of RTE &amp; NWI  Status</a></h6>
 								  <h6><em>If you have any questions or comments, please contact <A href="mailto:jbudke@utk.edu">Dr. Jessica M. Budke</A> or <a href="mailto:molive18@utk.edu">Margaret  Oliver</a></em>.</h6>

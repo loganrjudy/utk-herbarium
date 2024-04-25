@@ -139,12 +139,12 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 		 
 		$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID ORDER BY GenusName, SpeciesName ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-		$row_getPosts = mysql_fetch_assoc($getPosts);
+		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['SpeciesID']; ?>"><?php echo $row_getPosts['GenusName']; ?> <?php echo $row_getPosts['SpeciesName']; ?></option>
-		  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts))?>
+		  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts))?>
       </select>
 	</p>
     <p>
@@ -154,12 +154,12 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 		 
 		$query_getPosts = "SELECT * FROM tblCommonName ORDER BY CommonName ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-		$row_getPosts = mysql_fetch_assoc($getPosts);
+		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['CommID']; ?>"><?php echo $row_getPosts['CommonName']; ?></option>
-		  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts))?>
+		  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts))?>
       </select>
   </p>
       <p>

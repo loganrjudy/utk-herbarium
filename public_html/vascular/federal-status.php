@@ -35,7 +35,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
  
 $query_getPosts = "SELECT * FROM tblFedStatus WHERE FedStatusID != 'N/A' ORDER BY FedStatus ASC";
 $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-$row_getPosts = mysql_fetch_assoc($getPosts);
+$row_getPosts = mysqli_fetch_assoc($getPosts);
 $totalRows_getPosts = mysql_num_rows($getPosts);
 ?>
 
@@ -69,7 +69,7 @@ $totalRows_getPosts = mysql_num_rows($getPosts);
 									  <?php do { ?>
 										<h4><a href="vascular-search-status-results.php?FedStatusID=<?php echo $row_getPosts['FedStatus']; ?>"><?php echo $row_getPosts['FedStatus']; ?></a></h4>
 										<ul><?php echo $row_getPosts['Description']; ?></ul>
-									  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)); ?>
+									  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)); ?>
 								  <hr>
                                   <h6><em>Searches may take a couple of minutes to complete depending on your Internet connection speed and the number of records entered.</em></h6>
                                   <h6><em>The State and Federal Status are based on <A href="http://www.state.tn.us/environment/na/pdf/plant_list.pdf" target="new">Tennessee Natural Heritage Program Rare Plant List 2008</A>, and updated on-line by Pat Barnwell. Search result contains only those taxa that have been entered into the TENN flora database.  If you have knowledge of a plant not listed, please contact Dr. B. E. Wofford at <A href="mailto:bewofford@utk.edu">bewofford@utk.edu</A>. </em></h6>

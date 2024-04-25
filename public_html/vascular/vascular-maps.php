@@ -48,7 +48,7 @@ $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 $totalRows_getPosts = mysql_num_rows($getPosts);
 	
 $varCount =mysqli_query($selectCount);
-$countSpecies = mysql_fetch_assoc($varCount);
+$countSpecies = mysqli_fetch_assoc($varCount);
 }
 
 ?>
@@ -97,7 +97,7 @@ $countSpecies = mysql_fetch_assoc($varCount);
 									<?php } ?>
 									<p>Click the thumbnail(s) below to see the enlarged map for each species under the <strong>Genus <span style="color: #006C93;"><?php echo $varGenus; ?></span></strong>.</p>
 									<?php									
-									while ($row_getPosts = mysql_fetch_assoc($getPosts)) {?>
+									while ($row_getPosts = mysqli_fetch_assoc($getPosts)) {?>
 										  <div class="one-fourth column" align="center" style="height: 100px;">
 											  <a href = "vascular-maps.php?CategoryID=<?php echo $varCategory; ?>&FamilyID=<?php echo $varFamily; ?>&GenusID=<?php echo $varGenus; ?>&SpeciesID=<?php echo $row_getPosts['SpeciesName']; ?>" target="_parent"><IMG SRC="atlasD/<?php echo strtolower($varCategory); ?>/<?php echo strtolower($varFamily); ?>/<?php echo strtolower($varGenus); ?>-<?php echo str_replace(" ","%20",$row_getPosts['SpeciesName']);?>.gif" alt="Map of <?php echo $varGenus; ?> <?php echo $row_getPosts['SpeciesName']; ?>" width="150"><br><?php echo $row_getPosts['SpeciesName'] ?></a>
 											</div>

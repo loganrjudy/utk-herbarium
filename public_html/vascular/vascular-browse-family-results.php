@@ -64,7 +64,7 @@ ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author;", GetSQL
 
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
-$row_getPost = mysql_fetch_assoc($getPost);
+$row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 
 $GenusLast = 'NA';
@@ -141,7 +141,7 @@ $SpeciesLast  = 'NA';
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; <?php echo $row_getPost['Synonym']; ?>
 															<?php } ?>
 													</ul>
-										<?php } while ($row_getPost = mysql_fetch_assoc($getPost)); ?>
+										<?php } while ($row_getPost = mysqli_fetch_assoc($getPost)); ?>
 								  <hr>
 									 <h6>*Non-native taxon known to be naturalized in Tennessee</h6>
 									<h6>

@@ -106,7 +106,7 @@ foreach ($rows as $curr_row)
 echo ("</table>");
 ?> 					
 											
-									<?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+									<?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
 									
 								  <br clear="all" />
 								  <hr>

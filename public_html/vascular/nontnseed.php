@@ -107,7 +107,7 @@ $start=($id)*$limit;
 			ORDER BY Genus, Species, SeedFileName ASC LIMIT $start, $limit";
 									
 			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-			$row_getPosts = mysql_fetch_assoc($getPosts);
+			$row_getPosts = mysqli_fetch_assoc($getPosts);
 			$totalRows_getPosts = mysql_num_rows($getPosts);
 			
 			if(mysql_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
@@ -143,7 +143,7 @@ $start=($id)*$limit;
                             } ?></a></td>
                 </tr>
             <?php } ?>
-		    <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)); ?>
+		    <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)); ?>
           </table>
           <br clear="all" />
           <?php 

@@ -68,7 +68,7 @@ $totalRows_getPosts = mysql_num_rows($getPosts);
                   </header>
 								  <h4><STRONG></STRONG>Checklist by County</h4>
 									<?php									
-									while ($row_getPosts = mysql_fetch_assoc($getPosts)) { ?>
+									while ($row_getPosts = mysqli_fetch_assoc($getPosts)) { ?>
 										  <div class="one-fourth column">
 											  <ul><li style="margin-bottom: -20px;"><a href = "county.php?CountyID=<?php echo $row_getPosts['CountyID']; ?>"><?php echo $row_getPosts['CountyName'];?> </a></li></ul>
 											</div>

@@ -81,7 +81,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										  <div class="one-third column" style="margin-bottom: 0px;">
 										 	<a href = "vascular-browse-common-results.php?CommID=<?php echo $row_getPosts['CommID']; ?>"><?php echo $row_getPosts['CommonName'];?> </a>
 											</div>
-									<?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)) ?>
+									<?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)) ?>
 									
 								  <br clear="all" />
 								  <hr>

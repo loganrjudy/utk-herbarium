@@ -149,7 +149,7 @@ $totalRows_getPosts = mysql_num_rows($getPosts);
 	<p>
 	  <label for="Family">Family:</label>
       <select name="Family" id="Family">
-      <?php while ($row_getPosts = mysql_fetch_assoc($getPosts)) { ?>
+      <?php while ($row_getPosts = mysqli_fetch_assoc($getPosts)) { ?>
 	    <option value="<?php echo strtolower($row_getPosts['FamilyName']); ?>"><?php echo $row_getPosts['FamilyName']; ?></option>
 	  <?php } ?>
       </select>

@@ -121,7 +121,7 @@ $start=($id-1)*$limit;
  
 $query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC LIMIT $start, $limit";
 $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-$row_getPosts = mysql_fetch_assoc($getPosts);
+$row_getPosts = mysqli_fetch_assoc($getPosts);
 $totalRows_getPosts = mysql_num_rows($getPosts);
 ?>
 
@@ -163,7 +163,7 @@ $totalRows_getPosts = mysql_num_rows($getPosts);
 				  else {} ?></td>
 			  <td width="60" style="text-align:center;"><a class="btn btn-smokey btn-block" href="delete_family.php?FamilyID=<?php echo $row_getPosts['FamilyID']; ?>">DELETE</a></td>
             </tr>
-		    <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)); ?>
+		    <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)); ?>
           </table>
           <br clear="all" />
           <?php 

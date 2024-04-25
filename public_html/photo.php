@@ -68,7 +68,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											 
 											$query_getPosts = "SELECT COUNT(PhotoID) AS Photos FROM tblPhoto";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-											$row_getPosts = mysql_fetch_assoc($getPosts);
+											$row_getPosts = mysqli_fetch_assoc($getPosts);
 											$totalRows_getPosts = mysql_num_rows($getPosts);
 										  	echo number_format($row_getPosts['Photos']);
 										  ?>
@@ -77,7 +77,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 												 
 												$query_getPosts = "SELECT COUNT(SpeciesID) AS Species FROM tblSpecies";
 												$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-												$row_getPosts = mysql_fetch_assoc($getPosts);
+												$row_getPosts = mysqli_fetch_assoc($getPosts);
 												$totalRows_getPosts = mysql_num_rows($getPosts);
 												echo number_format($row_getPosts['Species']);
 											  ?>
@@ -86,7 +86,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 												 
 												$query_getPosts = "SELECT COUNT(SpeciesID) AS SpeciesCounty FROM tblSpOccurred";
 												$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-												$row_getPosts = mysql_fetch_assoc($getPosts);
+												$row_getPosts = mysqli_fetch_assoc($getPosts);
 												$totalRows_getPosts = mysql_num_rows($getPosts);
 												echo number_format($row_getPosts['SpeciesCounty']);
 											  ?>
@@ -115,7 +115,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										 
 										$query_getPosts = "SELECT * FROM tblPhotographer ORDER BY LastName ASC";
 										$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-										$row_getPosts = mysql_fetch_assoc($getPosts);
+										$row_getPosts = mysqli_fetch_assoc($getPosts);
 										$totalRows_getPosts = mysql_num_rows($getPosts);
 										
 										do { ?>
@@ -124,7 +124,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										  <td><?php echo $row_getPosts['InstitutionAddress']; ?></td>
 										  <td><?php echo $row_getPosts['Email']; ?></td>
 										</tr>
-									  <?php } while ($row_getPosts = mysql_fetch_assoc($getPosts)); ?>
+									  <?php } while ($row_getPosts = mysqli_fetch_assoc($getPosts)); ?>
 									  </table>
 
     <!-- And here are a couple of helpers to get you started in page layout -->

@@ -55,7 +55,7 @@ ORDER BY tblCategory.CategoryID, tblGenus.GenusName, tblSpecies.SpeciesName, tbl
 
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
-$row_getPost = mysql_fetch_assoc($getPost);
+$row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 
 $CategoryLast = 'NA';
@@ -100,7 +100,7 @@ $SpeciesLast  = 'NA';
 											  <h6 style="margin: 0px; font-weight: lighter;">&bull; <?php echo $row_getPost['GenusName'];?> <?php echo $row_getPost['SpeciesName'];?></h6>
 										  </div>
 												<?php } ?>
-									<?php } while ($row_getPost = mysql_fetch_assoc($getPost)); ?>
+									<?php } while ($row_getPost = mysqli_fetch_assoc($getPost)); ?>
 									
 								  <br clear="all" />
 								  
