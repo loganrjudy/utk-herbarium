@@ -160,9 +160,9 @@ $start=($id)*$limit;
 									
 			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 			$row_getPosts = mysqli_fetch_assoc($getPosts);
-			$totalRows_getPosts = mysql_num_rows($getPosts);
+			$totalRows_getPosts = mysqli_num_rows($getPosts);
 			
-			if(mysql_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
+			if(mysqli_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
 		?>
 									
 									
@@ -196,9 +196,9 @@ $start=($id)*$limit;
           </table>
           <br clear="all" />
           <?php 
-				if(mysql_num_rows($getPosts) >= 50) {
+				if(mysqli_num_rows($getPosts) >= 50) {
 				
-					$rows=mysql_num_rows(mysql_query("select * from tblNonTNSeeds"));
+					$rows=mysqli_num_rows(mysql_query("select * from tblNonTNSeeds"));
 					$total=floor($rows/$limit);
 
 					if($id>=1)

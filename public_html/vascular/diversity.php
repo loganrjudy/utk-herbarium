@@ -80,7 +80,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County1 FROM tblSpOccurred WHERE CountyID=1";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County1'];
 										  	?>
                                        	  </TD>
@@ -93,7 +93,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County2 FROM tblSpOccurred WHERE CountyID=2";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County2'];
 										  	?>
                                        	  </TD>
@@ -106,7 +106,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County3 FROM tblSpOccurred WHERE CountyID=3";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County3'];
 										  	?>
                                        	  </TD>
@@ -119,7 +119,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County4 FROM tblSpOccurred WHERE CountyID=4";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County4'];
 										  	?>
                                        	  </TD>
@@ -132,7 +132,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County5 FROM tblSpOccurred WHERE CountyID=5";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County5'];
 										  	?>
                                        	  </TD>
@@ -145,7 +145,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County6 FROM tblSpOccurred WHERE CountyID=6";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County6'];
 										  	?>
                                        	  </TD>
@@ -158,7 +158,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County7 FROM tblSpOccurred WHERE CountyID=7";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County7'];
 										  	?>
                                        	  </TD>
@@ -171,7 +171,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County8 FROM tblSpOccurred WHERE CountyID=8";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County8'];
 										  	?>
                                        	  </TD>
@@ -184,7 +184,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County9 FROM tblSpOccurred WHERE CountyID=9";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County9'];
 										  	?>
                                        	  </TD>
@@ -197,7 +197,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County10 FROM tblSpOccurred WHERE CountyID=10";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County10'];
 										  	?>
                                        	  </TD>
@@ -210,7 +210,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County11 FROM tblSpOccurred WHERE CountyID=11";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County11'];
 										  	?>
                                        	  </TD>
@@ -223,7 +223,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County12 FROM tblSpOccurred WHERE CountyID=12";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County12'];
 										  	?>
                                        	  </TD>
@@ -236,7 +236,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County13 FROM tblSpOccurred WHERE CountyID=13";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County13'];
 										  	?>
                                        	  </TD>
@@ -249,7 +249,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County14 FROM tblSpOccurred WHERE CountyID=14";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County14'];
 										  	?>
                                        	  </TD>
@@ -262,7 +262,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County15 FROM tblSpOccurred WHERE CountyID=15";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County15'];
 										  	?>
                                        	  </TD>
@@ -275,7 +275,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County16 FROM tblSpOccurred WHERE CountyID=16";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County16'];
 										  	?>
                                        	  </TD>
@@ -288,7 +288,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County17 FROM tblSpOccurred WHERE CountyID=17";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County17'];
 										  	?>
                                        	  </TD>
@@ -301,7 +301,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County18 FROM tblSpOccurred WHERE CountyID=18";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County18'];
 										  	?>
                                        	  </TD>
@@ -314,7 +314,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County19 FROM tblSpOccurred WHERE CountyID=19";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County19'];
 										  	?>
                                        	  </TD>
@@ -327,7 +327,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County20 FROM tblSpOccurred WHERE CountyID=20";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County20'];
 										  	?>
                                        	  </TD>
@@ -340,7 +340,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County21 FROM tblSpOccurred WHERE CountyID=21";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County21'];
 										  	?>
                                        	  </TD>
@@ -353,7 +353,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County22 FROM tblSpOccurred WHERE CountyID=22";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County22'];
 										  	?>
                                        	  </TD>
@@ -366,7 +366,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County23 FROM tblSpOccurred WHERE CountyID=23";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County23'];
 										  	?>
                                        	  </TD>
@@ -379,7 +379,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County24 FROM tblSpOccurred WHERE CountyID=24";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County24'];
 										  	?>
                                        	  </TD>
@@ -402,7 +402,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County25 FROM tblSpOccurred WHERE CountyID=25";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County25'];
 										  	?>
                                        	  </TD>
@@ -415,7 +415,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County26 FROM tblSpOccurred WHERE CountyID=26";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County26'];
 										  	?>
                                        	  </TD>
@@ -428,7 +428,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County27 FROM tblSpOccurred WHERE CountyID=27";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County27'];
 										  	?>
                                        	  </TD>
@@ -441,7 +441,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County28 FROM tblSpOccurred WHERE CountyID=28";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County28'];
 										  	?>
                                        	  </TD>
@@ -454,7 +454,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County29 FROM tblSpOccurred WHERE CountyID=29";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County29'];
 										  	?>
                                        	  </TD>
@@ -467,7 +467,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County30 FROM tblSpOccurred WHERE CountyID=30";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County30'];
 										  	?>
                                        	  </TD>
@@ -480,7 +480,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County31 FROM tblSpOccurred WHERE CountyID=31";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County31'];
 										  	?>
                                        	  </TD>
@@ -493,7 +493,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County32 FROM tblSpOccurred WHERE CountyID=32";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County32'];
 										  	?>
                                        	  </TD>
@@ -506,7 +506,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County33 FROM tblSpOccurred WHERE CountyID=33";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County33'];
 										  	?>
                                        	  </TD>
@@ -519,7 +519,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County34 FROM tblSpOccurred WHERE CountyID=34";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County34'];
 										  	?>
                                        	  </TD>
@@ -532,7 +532,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County35 FROM tblSpOccurred WHERE CountyID=35";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County35'];
 										  	?>
                                        	  </TD>
@@ -545,7 +545,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County36 FROM tblSpOccurred WHERE CountyID=36";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County36'];
 										  	?>
                                        	  </TD>
@@ -558,7 +558,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County37 FROM tblSpOccurred WHERE CountyID=37";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County37'];
 										  	?>
                                        	  </TD>
@@ -571,7 +571,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County38 FROM tblSpOccurred WHERE CountyID=38";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County38'];
 										  	?>
                                        	  </TD>
@@ -584,7 +584,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County39 FROM tblSpOccurred WHERE CountyID=39";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County39'];
 										  	?>
                                        	  </TD>
@@ -597,7 +597,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County40 FROM tblSpOccurred WHERE CountyID=40";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County40'];
 										  	?>
                                        	  </TD>
@@ -610,7 +610,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County41 FROM tblSpOccurred WHERE CountyID=41";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County41'];
 										  	?>
                                        	  </TD>
@@ -623,7 +623,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County42 FROM tblSpOccurred WHERE CountyID=42";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County42'];
 										  	?>
                                        	  </TD>
@@ -636,7 +636,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County43 FROM tblSpOccurred WHERE CountyID=43";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County43'];
 										  	?>
                                        	  </TD>
@@ -649,7 +649,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County44 FROM tblSpOccurred WHERE CountyID=44";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County44'];
 										  	?>
                                        	  </TD>
@@ -662,7 +662,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County45 FROM tblSpOccurred WHERE CountyID=45";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County45'];
 										  	?>
                                        	  </TD>
@@ -675,7 +675,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County46 FROM tblSpOccurred WHERE CountyID=46";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County46'];
 										  	?>
                                        	  </TD>
@@ -688,7 +688,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County47 FROM tblSpOccurred WHERE CountyID=47";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County47'];
 										  	?>
                                        	  </TD>
@@ -701,7 +701,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County48 FROM tblSpOccurred WHERE CountyID=48";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County48'];
 										  	?>
                                        	  </TD>
@@ -724,7 +724,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County49 FROM tblSpOccurred WHERE CountyID=49";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County49'];
 										  	?>
                                        	  </TD>
@@ -737,7 +737,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County50 FROM tblSpOccurred WHERE CountyID=50";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County50'];
 										  	?>
                                        	  </TD>
@@ -750,7 +750,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County51 FROM tblSpOccurred WHERE CountyID=51";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County51'];
 										  	?>
                                        	  </TD>
@@ -763,7 +763,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County52 FROM tblSpOccurred WHERE CountyID=52";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County52'];
 										  	?>
                                        	  </TD>
@@ -776,7 +776,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County53 FROM tblSpOccurred WHERE CountyID=53";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County53'];
 										  	?>
                                        	  </TD>
@@ -789,7 +789,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County54 FROM tblSpOccurred WHERE CountyID=54";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County54'];
 										  	?>
                                        	  </TD>
@@ -802,7 +802,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County55 FROM tblSpOccurred WHERE CountyID=55";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County55'];
 										  	?>
                                        	  </TD>
@@ -815,7 +815,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County56 FROM tblSpOccurred WHERE CountyID=56";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County56'];
 										  	?>
                                        	  </TD>
@@ -828,7 +828,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County57 FROM tblSpOccurred WHERE CountyID=57";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County57'];
 										  	?>
                                        	  </TD>
@@ -841,7 +841,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County58 FROM tblSpOccurred WHERE CountyID=58";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County58'];
 										  	?>
                                        	  </TD>
@@ -854,7 +854,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County59 FROM tblSpOccurred WHERE CountyID=59";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County59'];
 										  	?>
                                        	  </TD>
@@ -867,7 +867,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County60 FROM tblSpOccurred WHERE CountyID=60";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County60'];
 										  	?>
                                        	  </TD>
@@ -880,7 +880,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County61 FROM tblSpOccurred WHERE CountyID=61";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County61'];
 										  	?>
                                        	  </TD>
@@ -893,7 +893,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County62 FROM tblSpOccurred WHERE CountyID=62";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County62'];
 										  	?>
                                        	  </TD>
@@ -906,7 +906,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County63 FROM tblSpOccurred WHERE CountyID=63";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County63'];
 										  	?>
                                        	  </TD>
@@ -919,7 +919,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County64 FROM tblSpOccurred WHERE CountyID=64";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County64'];
 										  	?>
                                        	  </TD>
@@ -932,7 +932,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County65 FROM tblSpOccurred WHERE CountyID=65";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County65'];
 										  	?>
                                        	  </TD>
@@ -945,7 +945,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County66 FROM tblSpOccurred WHERE CountyID=66";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County66'];
 										  	?>
                                        	  </TD>
@@ -958,7 +958,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County67 FROM tblSpOccurred WHERE CountyID=67";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County67'];
 										  	?>
                                        	  </TD>
@@ -971,7 +971,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County68 FROM tblSpOccurred WHERE CountyID=68";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County68'];
 										  	?>
                                        	  </TD>
@@ -984,7 +984,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County69 FROM tblSpOccurred WHERE CountyID=69";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County69'];
 										  	?>
                                        	  </TD>
@@ -997,7 +997,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County70 FROM tblSpOccurred WHERE CountyID=70";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County70'];
 										  	?>
                                        	  </TD>
@@ -1010,7 +1010,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County71 FROM tblSpOccurred WHERE CountyID=71";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County71'];
 										  	?>
                                        	  </TD>
@@ -1023,7 +1023,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County72 FROM tblSpOccurred WHERE CountyID=72";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County72'];
 										  	?>
                                        	  </TD>
@@ -1046,7 +1046,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County73 FROM tblSpOccurred WHERE CountyID=73";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County73'];
 										  	?>
                                        	  </TD>
@@ -1059,7 +1059,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County74 FROM tblSpOccurred WHERE CountyID=74";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County74'];
 										  	?>
                                        	  </TD>
@@ -1072,7 +1072,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County75 FROM tblSpOccurred WHERE CountyID=75";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County75'];
 										  	?>
                                        	  </TD>
@@ -1085,7 +1085,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County76 FROM tblSpOccurred WHERE CountyID=76";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County76'];
 										  	?>
                                        	  </TD>
@@ -1098,7 +1098,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County77 FROM tblSpOccurred WHERE CountyID=77";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County77'];
 										  	?>
                                        	  </TD>
@@ -1111,7 +1111,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County78 FROM tblSpOccurred WHERE CountyID=78";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County78'];
 										  	?>
                                        	  </TD>
@@ -1124,7 +1124,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County79 FROM tblSpOccurred WHERE CountyID=79";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County79'];
 										  	?>
                                        	  </TD>
@@ -1137,7 +1137,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County80 FROM tblSpOccurred WHERE CountyID=80";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County80'];
 										  	?>
                                        	  </TD>
@@ -1150,7 +1150,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County81 FROM tblSpOccurred WHERE CountyID=81";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County81'];
 										  	?>
                                        	  </TD>
@@ -1163,7 +1163,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County82 FROM tblSpOccurred WHERE CountyID=82";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County82'];
 										  	?>
                                        	  </TD>
@@ -1176,7 +1176,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County83 FROM tblSpOccurred WHERE CountyID=83";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County83'];
 										  	?>
                                        	  </TD>
@@ -1189,7 +1189,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County84 FROM tblSpOccurred WHERE CountyID=84";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County84'];
 										  	?>
                                        	  </TD>
@@ -1202,7 +1202,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County85 FROM tblSpOccurred WHERE CountyID=85";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County85'];
 										  	?>
                                        	  </TD>
@@ -1215,7 +1215,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County86 FROM tblSpOccurred WHERE CountyID=86";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County86'];
 										  	?>
                                        	  </TD>
@@ -1228,7 +1228,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County87 FROM tblSpOccurred WHERE CountyID=87";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County87'];
 										  	?>
                                        	  </TD>
@@ -1241,7 +1241,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County88 FROM tblSpOccurred WHERE CountyID=88";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County88'];
 										  	?>
                                        	  </TD>
@@ -1254,7 +1254,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County89 FROM tblSpOccurred WHERE CountyID=89";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County89'];
 										  	?>
                                        	  </TD>
@@ -1267,7 +1267,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County90 FROM tblSpOccurred WHERE CountyID=90";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County90'];
 										  	?>
                                        	  </TD>
@@ -1280,7 +1280,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County91 FROM tblSpOccurred WHERE CountyID=91";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County91'];
 										  	?>
                                        	  </TD>
@@ -1293,7 +1293,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County92 FROM tblSpOccurred WHERE CountyID=92";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County92'];
 										  	?>
                                        	  </TD>
@@ -1306,7 +1306,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County93 FROM tblSpOccurred WHERE CountyID=93";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County93'];
 										  	?>
                                        	  </TD>
@@ -1319,7 +1319,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County94 FROM tblSpOccurred WHERE CountyID=94";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County94'];
 										  	?>
                                        	  </TD>
@@ -1332,7 +1332,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County95 FROM tblSpOccurred WHERE CountyID=95";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County95'];
 										  	?>
                                        	  </TD>
@@ -1358,7 +1358,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County47 FROM tblSpOccurred WHERE CountyID=47";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County47'];
 										  	?>
                                        	  </TD>
@@ -1371,7 +1371,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County63 FROM tblSpOccurred WHERE CountyID=63";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County63'];
 										  	?>
                                        	  </TD>
@@ -1384,7 +1384,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County5 FROM tblSpOccurred WHERE CountyID=5";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County5'];
 										  	?>
                                        	  </TD>
@@ -1397,7 +1397,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County19 FROM tblSpOccurred WHERE CountyID=19";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County19'];
 										  	?>
                                        	  </TD>
@@ -1410,7 +1410,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County81 FROM tblSpOccurred WHERE CountyID=81";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County81'];
 										  	?>
                                        	  </TD>
@@ -1422,7 +1422,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County56 FROM tblSpOccurred WHERE CountyID=56";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County56'];
 										  	?></TD>
                                         </TR>
@@ -1434,7 +1434,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County78 FROM tblSpOccurred WHERE CountyID=78";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County78'];
 										  	?>
                                        	  </TD>
@@ -1447,7 +1447,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County18 FROM tblSpOccurred WHERE CountyID=18";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County18'];
 										  	?>
                                        	  </TD>
@@ -1460,7 +1460,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County26 FROM tblSpOccurred WHERE CountyID=26";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County26'];
 										  	?>
                                        	  </TD>
@@ -1472,7 +1472,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County70 FROM tblSpOccurred WHERE CountyID=70";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County70'];
 										  	?></TD>
                                         </TR>
@@ -1484,7 +1484,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County75 FROM tblSpOccurred WHERE CountyID=75";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County75'];
 										  	?>
                                        	  </TD>
@@ -1496,7 +1496,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County73 FROM tblSpOccurred WHERE CountyID=73";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County73'];
 										  	?></TD>
                                         </TR>
@@ -1507,7 +1507,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County88 FROM tblSpOccurred WHERE CountyID=88";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County88'];
 										  	?></TD>
                                         </TR>
@@ -1519,7 +1519,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County28 FROM tblSpOccurred WHERE CountyID=28";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County28'];
 										  	?>
                                        	  </TD>
@@ -1532,7 +1532,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County16 FROM tblSpOccurred WHERE CountyID=16";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County16'];
 										  	?>
                                        	  </TD>
@@ -1544,7 +1544,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County79 FROM tblSpOccurred WHERE CountyID=79";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County79'];
 										  	?></TD>
                                         </TR>
@@ -1556,7 +1556,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County31 FROM tblSpOccurred WHERE CountyID=31";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County31'];
 										  	?>
                                        	  </TD>
@@ -1568,7 +1568,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County33 FROM tblSpOccurred WHERE CountyID=33";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County33'];
 										  	?></TD>
                                         </TR>
@@ -1580,7 +1580,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County58 FROM tblSpOccurred WHERE CountyID=58";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County58'];
 										  	?>
                                        	  </TD>
@@ -1593,7 +1593,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County62 FROM tblSpOccurred WHERE CountyID=62";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County62'];
 										  	?>
                                        	  </TD>
@@ -1606,7 +1606,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County83 FROM tblSpOccurred WHERE CountyID=83";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County83'];
 										  	?>
                                        	  </TD>
@@ -1618,7 +1618,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County7 FROM tblSpOccurred WHERE CountyID=7";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County7'];
 										  	?></TD>
                                         </TR>
@@ -1630,7 +1630,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County65 FROM tblSpOccurred WHERE CountyID=65";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County65'];
 										  	?>
                                        	  </TD>
@@ -1643,7 +1643,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County36 FROM tblSpOccurred WHERE CountyID=36";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County36'];
 										  	?>
                                        	  </TD>
@@ -1665,7 +1665,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County10 FROM tblSpOccurred WHERE CountyID=10";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County10'];
 										  	?></TD>
                                         </TR>
@@ -1676,7 +1676,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County11 FROM tblSpOccurred WHERE CountyID=11";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County11'];
 										  	?></TD>
                                         </TR>
@@ -1688,7 +1688,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County94 FROM tblSpOccurred WHERE CountyID=94";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County94'];
 										  	?>
                                        	  </TD>
@@ -1700,7 +1700,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County1 FROM tblSpOccurred WHERE CountyID=1";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County1'];
 										  	?></TD>
                                         </TR>
@@ -1712,7 +1712,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County43 FROM tblSpOccurred WHERE CountyID=43";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County43'];
 										  	?>
                                        	  </TD>
@@ -1724,7 +1724,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County25 FROM tblSpOccurred WHERE CountyID=25";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County25'];
 										  	?></TD>
                                         </TR>
@@ -1736,7 +1736,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County22 FROM tblSpOccurred WHERE CountyID=22";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County22'];
 										  	?>
                                        	  </TD>
@@ -1749,7 +1749,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County4 FROM tblSpOccurred WHERE CountyID=4";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County4'];
 										  	?>
                                        	  </TD>
@@ -1762,7 +1762,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County76 FROM tblSpOccurred WHERE CountyID=76";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County76'];
 										  	?>
                                        	  </TD>
@@ -1775,7 +1775,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County71 FROM tblSpOccurred WHERE CountyID=71";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County71'];
 										  	?>
                                        	  </TD>
@@ -1788,7 +1788,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County51 FROM tblSpOccurred WHERE CountyID=51";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County51'];
 										  	?>
                                        	  </TD>
@@ -1801,7 +1801,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County41 FROM tblSpOccurred WHERE CountyID=41";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County41'];
 										  	?>
                                        	  </TD>
@@ -1814,7 +1814,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County67 FROM tblSpOccurred WHERE CountyID=67";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County67'];
 										  	?>
                                        	  </TD>
@@ -1827,7 +1827,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County21 FROM tblSpOccurred WHERE CountyID=21";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County21'];
 										  	?>
                                        	  </TD>
@@ -1839,7 +1839,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County86 FROM tblSpOccurred WHERE CountyID=86";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County86'];
 										  	?></TD>
                                         </TR>
@@ -1851,7 +1851,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County9 FROM tblSpOccurred WHERE CountyID=9";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County9'];
 										  	?>
                                        	  </TD>
@@ -1864,7 +1864,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County93 FROM tblSpOccurred WHERE CountyID=93";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County93'];
 										  	?>
                                        	  </TD>
@@ -1877,7 +1877,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County72 FROM tblSpOccurred WHERE CountyID=72";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County72'];
 										  	?>
                                        	  </TD>
@@ -1890,7 +1890,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County15 FROM tblSpOccurred WHERE CountyID=15";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County15'];
 										  	?>
                                        	  </TD>
@@ -1902,7 +1902,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County37 FROM tblSpOccurred WHERE CountyID=37";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County37'];
 										  	?></TD>
                                         </TR>
@@ -1913,7 +1913,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County13 FROM tblSpOccurred WHERE CountyID=13";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County13'];
 										  	?></TD>
                                         </TR>
@@ -1925,7 +1925,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County40 FROM tblSpOccurred WHERE CountyID=40";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County40'];
 										  	?>
                                        	  </TD>
@@ -1938,7 +1938,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County95 FROM tblSpOccurred WHERE CountyID=95";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County95'];
 										  	?>
                                        	  </TD>
@@ -1950,7 +1950,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County46 FROM tblSpOccurred WHERE CountyID=46";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County46'];
 										  	?></TD>
                                         </TR>
@@ -1971,7 +1971,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County29 FROM tblSpOccurred WHERE CountyID=29";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County29'];
 										  	?></TD>
                                         </TR>
@@ -1982,7 +1982,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County82 FROM tblSpOccurred WHERE CountyID=82";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County82'];
 										  	?></TD>
                                         </TR>
@@ -1994,7 +1994,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County38 FROM tblSpOccurred WHERE CountyID=38";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County38'];
 										  	?>
                                        	  </TD>
@@ -2006,7 +2006,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County30 FROM tblSpOccurred WHERE CountyID=30";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County30'];
 										  	?></TD>
                                         </TR>
@@ -2018,7 +2018,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County84 FROM tblSpOccurred WHERE CountyID=84";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County84'];
 										  	?>
                                        	  </TD>
@@ -2030,7 +2030,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County24 FROM tblSpOccurred WHERE CountyID=24";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County24'];
 										  	?></TD>
                                         </TR>
@@ -2042,7 +2042,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County60 FROM tblSpOccurred WHERE CountyID=60";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County60'];
 										  	?>
                                        	  </TD>
@@ -2054,7 +2054,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County87 FROM tblSpOccurred WHERE CountyID=87";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County87'];
 										  	?></TD>
                                         </TR>
@@ -2066,7 +2066,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County61 FROM tblSpOccurred WHERE CountyID=61";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County61'];
 										  	?>
                                        	  </TD>
@@ -2079,7 +2079,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County66 FROM tblSpOccurred WHERE CountyID=66";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County66'];
 										  	?>
                                        	  </TD>
@@ -2092,7 +2092,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County91 FROM tblSpOccurred WHERE CountyID=91";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County91'];
 										  	?>
                                        	  </TD>
@@ -2105,7 +2105,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County89 FROM tblSpOccurred WHERE CountyID=89";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County89'];
 										  	?>
                                        	  </TD>
@@ -2118,7 +2118,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County14 FROM tblSpOccurred WHERE CountyID=14";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County14'];
 										  	?>
                                        	  </TD>
@@ -2130,7 +2130,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County90 FROM tblSpOccurred WHERE CountyID=90";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County90'];
 										  	?></TD>
                                         </TR>
@@ -2141,7 +2141,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County20 FROM tblSpOccurred WHERE CountyID=20";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County20'];
 										  	?></TD>
                                         </TR>
@@ -2153,7 +2153,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County53 FROM tblSpOccurred WHERE CountyID=53";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County53'];
 										  	?>
                                        	  </TD>
@@ -2165,7 +2165,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County57 FROM tblSpOccurred WHERE CountyID=57";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County57'];
 										  	?></TD>
                                         </TR>
@@ -2177,7 +2177,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County50 FROM tblSpOccurred WHERE CountyID=50";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County50'];
 										  	?>
                                        	  </TD>
@@ -2190,7 +2190,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County42 FROM tblSpOccurred WHERE CountyID=42";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County42'];
 										  	?>
                                        	  </TD>
@@ -2203,7 +2203,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County77 FROM tblSpOccurred WHERE CountyID=77";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County77'];
 										  	?>
                                        	  </TD>
@@ -2216,7 +2216,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County44 FROM tblSpOccurred WHERE CountyID=44";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County44'];
 										  	?>
                                        	  </TD>
@@ -2228,7 +2228,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County49 FROM tblSpOccurred WHERE CountyID=49";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County49'];
 										  	?></TD>
                                         </TR>
@@ -2240,7 +2240,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County74 FROM tblSpOccurred WHERE CountyID=74";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County74'];
 										  	?>
                                        	  </TD>
@@ -2252,7 +2252,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County35 FROM tblSpOccurred WHERE CountyID=35";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County35'];
 										  	?></TD>
                                         </TR>
@@ -2273,7 +2273,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County3 FROM tblSpOccurred WHERE CountyID=3";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County3'];
 										  	?></TD>
                                         </TR>
@@ -2284,7 +2284,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County6 FROM tblSpOccurred WHERE CountyID=6";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County6'];
 										  	?></TD>
                                         </TR>
@@ -2296,7 +2296,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County8 FROM tblSpOccurred WHERE CountyID=8";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County8'];
 										  	?>
                                        	  </TD>
@@ -2309,7 +2309,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County68 FROM tblSpOccurred WHERE CountyID=68";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County68'];
 										  	?>
                                        	  </TD>
@@ -2322,7 +2322,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County48 FROM tblSpOccurred WHERE CountyID=48";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County48'];
 										  	?>
                                        	  </TD>
@@ -2335,7 +2335,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County2 FROM tblSpOccurred WHERE CountyID=2";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County2'];
 										  	?>
                                        	  </TD>
@@ -2348,7 +2348,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County52 FROM tblSpOccurred WHERE CountyID=52";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County52'];
 										  	?>
                                        	  </TD>
@@ -2360,7 +2360,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County59 FROM tblSpOccurred WHERE CountyID=59";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County59'];
 										  	?></TD>
                                         </TR>
@@ -2372,7 +2372,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County54 FROM tblSpOccurred WHERE CountyID=54";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County54'];
 										  	?>
                                        	  </TD>
@@ -2385,7 +2385,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County55 FROM tblSpOccurred WHERE CountyID=55";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County55'];
 										  	?>
                                        	  </TD>
@@ -2398,7 +2398,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County39 FROM tblSpOccurred WHERE CountyID=39";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County39'];
 										  	?>
                                        	  </TD>
@@ -2410,7 +2410,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County69 FROM tblSpOccurred WHERE CountyID=69";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County69'];
 										  	?></TD>
                                         </TR>
@@ -2422,7 +2422,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County45 FROM tblSpOccurred WHERE CountyID=45";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County45'];
 										  	?>
                                        	  </TD>
@@ -2435,7 +2435,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County80 FROM tblSpOccurred WHERE CountyID=80";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County80'];
 										  	?>
                                        	  </TD>
@@ -2447,7 +2447,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County34 FROM tblSpOccurred WHERE CountyID=34";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County34'];
 										  	?></TD>
                                         </TR>
@@ -2459,7 +2459,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County23 FROM tblSpOccurred WHERE CountyID=23";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County23'];
 										  	?>
                                        	  </TD>
@@ -2472,7 +2472,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County12 FROM tblSpOccurred WHERE CountyID=12";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County12'];
 										  	?>
                                        	  </TD>
@@ -2485,7 +2485,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County27 FROM tblSpOccurred WHERE CountyID=27";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County27'];
 										  	?>
                                        	  </TD>
@@ -2497,7 +2497,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County32 FROM tblSpOccurred WHERE CountyID=32";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County32'];
 										  	?></TD>
                                         </TR>
@@ -2509,7 +2509,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County92 FROM tblSpOccurred WHERE CountyID=92";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County92'];
 										  	?>
                                        	  </TD>
@@ -2522,7 +2522,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County64 FROM tblSpOccurred WHERE CountyID=64";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County64'];
 										  	?>
                                        	  </TD>
@@ -2535,7 +2535,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County85 FROM tblSpOccurred WHERE CountyID=85";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County85'];
 										  	?>
                                        	  </TD>
@@ -2548,7 +2548,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County17 FROM tblSpOccurred WHERE CountyID=17";
 											$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 											$row_getPosts = mysqli_fetch_assoc($getPosts);
-											$totalRows_getPosts = mysql_num_rows($getPosts);
+											$totalRows_getPosts = mysqli_num_rows($getPosts);
 										  	echo $row_getPosts['County17'];
 										  	?>
                                        	  </TD>

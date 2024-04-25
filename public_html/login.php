@@ -61,7 +61,7 @@ if (isset($_POST['username'])) {
    
   $LoginRS =mysqli_query($Herbarium, $LoginRS__query)
  or die(mysql_error());
-  $loginFoundUser = mysql_num_rows($LoginRS);
+  $loginFoundUser = mysqli_num_rows($LoginRS);
   if ($loginFoundUser) {
      $loginStrGroup = "";
     

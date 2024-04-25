@@ -122,7 +122,7 @@ $start=($id-1)*$limit;
 $query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC LIMIT $start, $limit";
 $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 $row_getPosts = mysqli_fetch_assoc($getPosts);
-$totalRows_getPosts = mysql_num_rows($getPosts);
+$totalRows_getPosts = mysqli_num_rows($getPosts);
 ?>
 
 <?php include_once ("includes/header.php");?>
@@ -167,7 +167,7 @@ $totalRows_getPosts = mysql_num_rows($getPosts);
           </table>
           <br clear="all" />
           <?php 
-				$rows=mysql_num_rows(mysql_query("select * from tblFamily"));
+				$rows=mysqli_num_rows(mysql_query("select * from tblFamily"));
 				$total=ceil($rows/$limit);
 
 				if($id>1)

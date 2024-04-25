@@ -162,7 +162,7 @@ WHERE tblSpecies.SpeciesID = %s", GetSQLValueString($colname_getPost, "int"));
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
-$totalRows_getPost = mysql_num_rows($getPost);
+$totalRows_getPost = mysqli_num_rows($getPost);
 ?>
 
 <?php include_once ("includes/header.php");?>
@@ -197,7 +197,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 				$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
 				$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 				$row_getPosts = mysqli_fetch_assoc($getPosts);
-				$totalRows_getPosts = mysql_num_rows($getPosts);
+				$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['GenusID']; ?>"><?php echo $row_getPosts['GenusName']; ?></option>
@@ -244,7 +244,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['FedStatusID']; ?>"><?php echo $row_getPosts['FedStatus']; ?></option>
@@ -261,7 +261,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['StateStatusID']; ?>"><?php echo $row_getPosts['StateStatus']; ?></option>
@@ -278,7 +278,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['NWI']; ?>"><?php echo $row_getPosts['NWIStatus']; ?></option>
@@ -311,7 +311,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		  
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		<?php do { ?>
 			<tr>

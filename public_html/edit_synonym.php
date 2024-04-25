@@ -144,7 +144,7 @@ $query_getPost = sprintf("SELECT * FROM tblSynonym WHERE SynID = %s", GetSQLValu
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
-$totalRows_getPost = mysql_num_rows($getPost);
+$totalRows_getPost = mysqli_num_rows($getPost);
 ?>
 
 <?php include_once ("includes/header.php");?>

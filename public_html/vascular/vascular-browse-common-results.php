@@ -44,7 +44,7 @@ $query_getPost = sprintf("SELECT tblCategory.CategoryName, tblFamily.FamilyName,
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
-$totalRows_getPost = mysql_num_rows($getPost);
+$totalRows_getPost = mysqli_num_rows($getPost);
 
 $GenusLast = 'NA';
 $SpeciesLast  = 'NA';

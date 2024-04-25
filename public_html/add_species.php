@@ -174,7 +174,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['GenusID']; ?>"><?php echo $row_getPosts['GenusName']; ?></option>
@@ -211,7 +211,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['FedStatusID']; ?>"><?php echo $row_getPosts['FedStatus']; ?></option>
@@ -226,7 +226,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['StateStatusID']; ?>"><?php echo $row_getPosts['StateStatus']; ?></option>
@@ -241,7 +241,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['NWI']; ?>"><?php echo $row_getPosts['NWIStatus']; ?></option>

@@ -144,7 +144,7 @@ $query_getPost.= " ORDER BY tblFamily.FamilyName, tblGenus.GenusName, tblSpecies
 $getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
-$totalRows_getPost = mysql_num_rows($getPost);
+$totalRows_getPost = mysqli_num_rows($getPost);
 
 ?>
 
@@ -215,7 +215,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 			          <?php
 						$getPost =mysqli_query($Herbarium, $query_getPost)
  or die(mysql_error());
-						$totalRows_getPost = mysql_num_rows($getPost);
+						$totalRows_getPost = mysqli_num_rows($getPost);
 						do {
 						?>
 					    

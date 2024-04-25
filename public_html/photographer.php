@@ -122,7 +122,7 @@ $start=($id-1)*$limit;
 $query_getPosts = "SELECT * FROM tblPhotographer ORDER BY LastName ASC LIMIT $start, $limit";
 $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 $row_getPosts = mysqli_fetch_assoc($getPosts);
-$totalRows_getPosts = mysql_num_rows($getPosts);
+$totalRows_getPosts = mysqli_num_rows($getPosts);
 ?>
 
 <?php include_once ("includes/header.php");?>
@@ -165,7 +165,7 @@ $totalRows_getPosts = mysql_num_rows($getPosts);
           </table>
           <br clear="all" />
           <?php 
-				$rows=mysql_num_rows(mysql_query("select * from tblPhotographer"));
+				$rows=mysqli_num_rows(mysql_query("select * from tblPhotographer"));
 				$total=ceil($rows/$limit);
 
 				if($id>1)

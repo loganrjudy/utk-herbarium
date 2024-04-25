@@ -178,7 +178,7 @@ $insertSQL = sprintf("INSERT INTO tblGenus (GenusName, G_Author, G_CommName, Fam
 		$query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC";
 		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
-		$totalRows_getPosts = mysql_num_rows($getPosts);
+		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
 		  <?php do { ?>
 			<option value="<?php echo $row_getPosts['FamilyID']; ?>"><?php echo $row_getPosts['FamilyName']; ?></option>

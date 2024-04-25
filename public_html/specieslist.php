@@ -182,9 +182,9 @@ $start=($id-1)*$limit;
 			$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID WHERE (GenusName LIKE '%$query%') OR (SpeciesName LIKE '%$query%') OR (Author LIKE '%$query%') ORDER BY GenusName, SpeciesName ASC LIMIT $start, $limit";
 			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 			$row_getPosts = mysqli_fetch_assoc($getPosts);
-			$totalRows_getPosts = mysql_num_rows($getPosts);
+			$totalRows_getPosts = mysqli_num_rows($getPosts);
 			
-			if(mysql_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
+			if(mysqli_num_rows($getPosts) > 0){ // if one or more rows are returned do following						
 		?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -271,8 +271,8 @@ $start=($id-1)*$limit;
           </table>
           <br clear="all" />
           <?php  
-				if(mysql_num_rows($getPosts) >= 50) {
-					$rows=mysql_num_rows(mysql_query("select * from tblSpecies"));
+				if(mysqli_num_rows($getPosts) >= 50) {
+					$rows=mysqli_num_rows(mysql_query("select * from tblSpecies"));
 					$total=ceil($rows/$limit);
 
 					if($id>1)

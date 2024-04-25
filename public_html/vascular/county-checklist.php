@@ -35,7 +35,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
  
 $query_getPosts = "SELECT * FROM tblCounty ORDER BY CountyName";
 $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
-$totalRows_getPosts = mysql_num_rows($getPosts);
+$totalRows_getPosts = mysqli_num_rows($getPosts);
 
 ?>
 
