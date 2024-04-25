@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^tenn.bio.utk.edu [NC]
+RewriteRule ^(.*)$ https://herbarium.utk.edu/$1 [L,R=301,NC]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
