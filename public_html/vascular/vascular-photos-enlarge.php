@@ -8,7 +8,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
     $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
   }
 
-  $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
+  $theValue = function_exists("mysqli_real_escape_string") ? mysqli_real_escape_string($theValue) : mysql_escape_string($theValue);
 
   switch ($theType) {
     case "text":
@@ -32,12 +32,12 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-$varCategory = mysql_real_escape_string($_GET["CategoryID"]);
-$varFamily = mysql_real_escape_string($_GET["FamilyID"]);
-$varGenus = mysql_real_escape_string($_GET["GenusID"]);
-$varSpecies = mysql_real_escape_string($_GET["SpeciesID"]);
-$varPhotoName = mysql_real_escape_string($_GET["PhotoNameID"]);
-$varPhotographerName = mysql_real_escape_string($_GET["PhotographerNameID"]);
+$varCategory = mysqli_real_escape_string($_GET["CategoryID"]);
+$varFamily = mysqli_real_escape_string($_GET["FamilyID"]);
+$varGenus = mysqli_real_escape_string($_GET["GenusID"]);
+$varSpecies = mysqli_real_escape_string($_GET["SpeciesID"]);
+$varPhotoName = mysqli_real_escape_string($_GET["PhotoNameID"]);
+$varPhotographerName = mysqli_real_escape_string($_GET["PhotographerNameID"]);
 
 ?>
 
