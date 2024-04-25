@@ -121,7 +121,7 @@ $updateSQL = sprintf("UPDATE tblCommonName SET CommonName=%s WHERE CommID=%s",
 				   GetSQLValueString($_POST['CommonName'], "text"),
                    GetSQLValueString($_POST['CommID'], "int"));
 
-		  mysql_select_db($database_Herbarium, $Herbarium);
+		   
 		  $Result1 = mysql_query($updateSQL, $Herbarium) or die(mysql_error());
 
 		  $insertGoTo = "commonlist.php";
@@ -138,7 +138,7 @@ $colname_getPost = "-1";
 if (isset($_GET['CommID'])) {
   $colname_getPost = $_GET['CommID'];
 }
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = sprintf("SELECT * FROM tblCommonName WHERE CommID = %s", GetSQLValueString($colname_getPost, "int"));
 $getPost = mysql_query($query_getPost, $Herbarium) or die(mysql_error());
 $row_getPost = mysql_fetch_assoc($getPost);

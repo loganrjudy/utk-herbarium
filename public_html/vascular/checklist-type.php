@@ -39,7 +39,7 @@ if (isset($_GET['CategoryID'])) {
 else {
 	echo "Record not found";
 }
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = sprintf("SELECT tblCategory.CategoryName, tblFamily.FamilyName, tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author, tblCommonName.CommonName 
 
 FROM tblCategory INNER JOIN tblFamily ON tblCategory.CategoryID = tblFamily.CategoryID

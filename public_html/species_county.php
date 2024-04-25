@@ -137,7 +137,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 	  <label for="SpeciesID">Species:</label>
       <select name="SpeciesID" id="SpeciesID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID ORDER BY GenusName, SpeciesName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -151,7 +151,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
     <p>
 	  <label for="CountyName">Counties:</label><br>
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblCounty ORDER BY CountyName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -189,7 +189,7 @@ $species = $_POST['SpeciesID'];
 	foreach ($county as $c) {
 		$insertSQL = "INSERT INTO tblSpOccurred (SpeciesID, CountyID) VALUES ('$species', '$c')";
 	
-			mysql_select_db($database_Herbarium);
+			 
 
 			if (mysql_query($insertSQL, $Herbarium)) {
 				echo "<h4 align='center'>The species and county(s) has been successfully added.</h4>";

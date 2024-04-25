@@ -157,7 +157,7 @@ $synonym = $_POST['Synonym'];
 	
 $insertSQL1 = "INSERT INTO tblSynonym (Synonym) VALUES ('".mysql_real_escape_string($synonym)."')";
 
-		mysql_select_db($database_Herbarium);
+		 
 
 	if (mysql_query($insertSQL1, $Herbarium)) {
 		echo "<h4 align='center'>The synonym has been successfully added to the list.</h4>";

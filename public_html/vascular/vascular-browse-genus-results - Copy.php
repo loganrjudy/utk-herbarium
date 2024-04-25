@@ -37,7 +37,7 @@ $varSynonymName = $_GET["SynonymName"];
 
 if ($varGenusName != "") {
 	
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 	
 $query_getPost = "SELECT tblCategory.CategoryName, tblFamily.FamilyName, tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author, tblCommonName.CommonName, tblSynonym.Synonym, tblSpecies.OriginID, tblStateStatus.StateStatus, tblFedStatus.FedStatus, tblNWIStatus.NWIStatus 
 

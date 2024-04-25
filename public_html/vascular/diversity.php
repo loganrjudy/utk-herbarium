@@ -76,7 +76,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Anderson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County1 FROM tblSpOccurred WHERE CountyID=1";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -89,7 +89,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Bedford</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County2 FROM tblSpOccurred WHERE CountyID=2";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -102,7 +102,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Benton</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County3 FROM tblSpOccurred WHERE CountyID=3";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -115,7 +115,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Bledsoe</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County4 FROM tblSpOccurred WHERE CountyID=4";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -128,7 +128,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Blount</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County5 FROM tblSpOccurred WHERE CountyID=5";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -141,7 +141,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Bradley</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County6 FROM tblSpOccurred WHERE CountyID=6";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -154,7 +154,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Campbell</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County7 FROM tblSpOccurred WHERE CountyID=7";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -167,7 +167,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cannon</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County8 FROM tblSpOccurred WHERE CountyID=8";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -180,7 +180,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Carroll</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County9 FROM tblSpOccurred WHERE CountyID=9";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -193,7 +193,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Carter</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County10 FROM tblSpOccurred WHERE CountyID=10";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -206,7 +206,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cheatham</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County11 FROM tblSpOccurred WHERE CountyID=11";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -219,7 +219,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Chester</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County12 FROM tblSpOccurred WHERE CountyID=12";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -232,7 +232,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Claiborne</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County13 FROM tblSpOccurred WHERE CountyID=13";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -245,7 +245,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Clay</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County14 FROM tblSpOccurred WHERE CountyID=14";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -258,7 +258,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cocke</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County15 FROM tblSpOccurred WHERE CountyID=15";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -271,7 +271,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Coffee</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County16 FROM tblSpOccurred WHERE CountyID=16";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -284,7 +284,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Crockett</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County17 FROM tblSpOccurred WHERE CountyID=17";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -297,7 +297,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cumberland</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County18 FROM tblSpOccurred WHERE CountyID=18";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -310,7 +310,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Davidson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County19 FROM tblSpOccurred WHERE CountyID=19";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -323,7 +323,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Decatur</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County20 FROM tblSpOccurred WHERE CountyID=20";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -336,7 +336,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>DeKalb</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County21 FROM tblSpOccurred WHERE CountyID=21";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -349,7 +349,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Dickson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County22 FROM tblSpOccurred WHERE CountyID=22";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -362,7 +362,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Dyer</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County23 FROM tblSpOccurred WHERE CountyID=23";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -375,7 +375,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Fayette</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County24 FROM tblSpOccurred WHERE CountyID=24";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -398,7 +398,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Fentress</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County25 FROM tblSpOccurred WHERE CountyID=25";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -411,7 +411,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Franklin</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County26 FROM tblSpOccurred WHERE CountyID=26";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -424,7 +424,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Gibson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County27 FROM tblSpOccurred WHERE CountyID=27";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -437,7 +437,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Giles</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County28 FROM tblSpOccurred WHERE CountyID=28";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -450,7 +450,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Grainger</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County29 FROM tblSpOccurred WHERE CountyID=29";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -463,7 +463,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Greene</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County30 FROM tblSpOccurred WHERE CountyID=30";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -476,7 +476,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Grundy</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County31 FROM tblSpOccurred WHERE CountyID=31";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -489,7 +489,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hamblen</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County32 FROM tblSpOccurred WHERE CountyID=32";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -502,7 +502,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hamilton</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County33 FROM tblSpOccurred WHERE CountyID=33";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -515,7 +515,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hancock</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County34 FROM tblSpOccurred WHERE CountyID=34";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -528,7 +528,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hardeman</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County35 FROM tblSpOccurred WHERE CountyID=35";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -541,7 +541,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hardin</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County36 FROM tblSpOccurred WHERE CountyID=36";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -554,7 +554,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hawkins</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County37 FROM tblSpOccurred WHERE CountyID=37";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -567,7 +567,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Haywood</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County38 FROM tblSpOccurred WHERE CountyID=38";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -580,7 +580,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Henderson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County39 FROM tblSpOccurred WHERE CountyID=39";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -593,7 +593,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Henry</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County40 FROM tblSpOccurred WHERE CountyID=40";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -606,7 +606,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hickman</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County41 FROM tblSpOccurred WHERE CountyID=41";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -619,7 +619,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Houston</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County42 FROM tblSpOccurred WHERE CountyID=42";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -632,7 +632,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Humphreys</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County43 FROM tblSpOccurred WHERE CountyID=43";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -645,7 +645,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Jackson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County44 FROM tblSpOccurred WHERE CountyID=44";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -658,7 +658,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Jefferson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County45 FROM tblSpOccurred WHERE CountyID=45";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -671,7 +671,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Johnson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County46 FROM tblSpOccurred WHERE CountyID=46";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -684,7 +684,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Knox</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County47 FROM tblSpOccurred WHERE CountyID=47";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -697,7 +697,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lake</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County48 FROM tblSpOccurred WHERE CountyID=48";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -720,7 +720,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lauderdale</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County49 FROM tblSpOccurred WHERE CountyID=49";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -733,7 +733,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lawrence</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County50 FROM tblSpOccurred WHERE CountyID=50";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -746,7 +746,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lewis</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County51 FROM tblSpOccurred WHERE CountyID=51";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -759,7 +759,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lincoln</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County52 FROM tblSpOccurred WHERE CountyID=52";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -772,7 +772,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Loudon</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County53 FROM tblSpOccurred WHERE CountyID=53";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -785,7 +785,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Macon</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County54 FROM tblSpOccurred WHERE CountyID=54";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -798,7 +798,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Madison</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County55 FROM tblSpOccurred WHERE CountyID=55";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -811,7 +811,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Marion</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County56 FROM tblSpOccurred WHERE CountyID=56";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -824,7 +824,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Marshall</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County57 FROM tblSpOccurred WHERE CountyID=57";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -837,7 +837,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Maury</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County58 FROM tblSpOccurred WHERE CountyID=58";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -850,7 +850,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>McMinn</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County59 FROM tblSpOccurred WHERE CountyID=59";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -863,7 +863,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>McNairy</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County60 FROM tblSpOccurred WHERE CountyID=60";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -876,7 +876,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Meigs</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County61 FROM tblSpOccurred WHERE CountyID=61";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -889,7 +889,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Monroe</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County62 FROM tblSpOccurred WHERE CountyID=62";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -902,7 +902,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Montgomery</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County63 FROM tblSpOccurred WHERE CountyID=63";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -915,7 +915,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Moore</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County64 FROM tblSpOccurred WHERE CountyID=64";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -928,7 +928,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Morgan</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County65 FROM tblSpOccurred WHERE CountyID=65";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -941,7 +941,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Obion</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County66 FROM tblSpOccurred WHERE CountyID=66";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -954,7 +954,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Overton</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County67 FROM tblSpOccurred WHERE CountyID=67";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -967,7 +967,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Perry</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County68 FROM tblSpOccurred WHERE CountyID=68";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -980,7 +980,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Pickett</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County69 FROM tblSpOccurred WHERE CountyID=69";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -993,7 +993,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Polk</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County70 FROM tblSpOccurred WHERE CountyID=70";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1006,7 +1006,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Putnam</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County71 FROM tblSpOccurred WHERE CountyID=71";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1019,7 +1019,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Rhea</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County72 FROM tblSpOccurred WHERE CountyID=72";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1042,7 +1042,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Roane</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County73 FROM tblSpOccurred WHERE CountyID=73";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1055,7 +1055,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Robertson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County74 FROM tblSpOccurred WHERE CountyID=74";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1068,7 +1068,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Rutherford</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County75 FROM tblSpOccurred WHERE CountyID=75";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1081,7 +1081,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Scott</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County76 FROM tblSpOccurred WHERE CountyID=76";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1094,7 +1094,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Sequatchie</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County77 FROM tblSpOccurred WHERE CountyID=77";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1107,7 +1107,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Sevier</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County78 FROM tblSpOccurred WHERE CountyID=78";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1120,7 +1120,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Shelby</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County79 FROM tblSpOccurred WHERE CountyID=79";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1133,7 +1133,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Smith</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County80 FROM tblSpOccurred WHERE CountyID=80";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1146,7 +1146,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Stewart</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County81 FROM tblSpOccurred WHERE CountyID=81";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1159,7 +1159,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Sullivan</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County82 FROM tblSpOccurred WHERE CountyID=82";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1172,7 +1172,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Sumner</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County83 FROM tblSpOccurred WHERE CountyID=83";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1185,7 +1185,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Tipton</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County84 FROM tblSpOccurred WHERE CountyID=84";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1198,7 +1198,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Trousdale</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County85 FROM tblSpOccurred WHERE CountyID=85";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1211,7 +1211,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Unicoi</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County86 FROM tblSpOccurred WHERE CountyID=86";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1224,7 +1224,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Union</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County87 FROM tblSpOccurred WHERE CountyID=87";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1237,7 +1237,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Van Buren</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County88 FROM tblSpOccurred WHERE CountyID=88";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1250,7 +1250,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Warren</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County89 FROM tblSpOccurred WHERE CountyID=89";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1263,7 +1263,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Washington</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County90 FROM tblSpOccurred WHERE CountyID=90";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1276,7 +1276,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Wayne</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County91 FROM tblSpOccurred WHERE CountyID=91";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1289,7 +1289,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Weakley</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County92 FROM tblSpOccurred WHERE CountyID=92";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1302,7 +1302,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>White</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County93 FROM tblSpOccurred WHERE CountyID=93";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1315,7 +1315,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Williamson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County94 FROM tblSpOccurred WHERE CountyID=94";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1328,7 +1328,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Wilson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County95 FROM tblSpOccurred WHERE CountyID=95";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1354,7 +1354,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Knox</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County47 FROM tblSpOccurred WHERE CountyID=47";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1367,7 +1367,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Montgomery</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County63 FROM tblSpOccurred WHERE CountyID=63";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1380,7 +1380,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Blount</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County5 FROM tblSpOccurred WHERE CountyID=5";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1393,7 +1393,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Davidson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County19 FROM tblSpOccurred WHERE CountyID=19";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1406,7 +1406,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Stewart</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County81 FROM tblSpOccurred WHERE CountyID=81";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1418,7 +1418,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Marion</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County56 FROM tblSpOccurred WHERE CountyID=56";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1430,7 +1430,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Sevier</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County78 FROM tblSpOccurred WHERE CountyID=78";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1443,7 +1443,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cumberland</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County18 FROM tblSpOccurred WHERE CountyID=18";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1456,7 +1456,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Franklin</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County26 FROM tblSpOccurred WHERE CountyID=26";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1468,7 +1468,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Polk</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County70 FROM tblSpOccurred WHERE CountyID=70";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1480,7 +1480,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Rutherford</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County75 FROM tblSpOccurred WHERE CountyID=75";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1492,7 +1492,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Roane</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County73 FROM tblSpOccurred WHERE CountyID=73";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1503,7 +1503,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Van Buren</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County88 FROM tblSpOccurred WHERE CountyID=88";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1515,7 +1515,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Giles</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County28 FROM tblSpOccurred WHERE CountyID=28";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1528,7 +1528,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Coffee</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County16 FROM tblSpOccurred WHERE CountyID=16";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1540,7 +1540,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Shelby</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County79 FROM tblSpOccurred WHERE CountyID=79";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1552,7 +1552,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Grundy</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County31 FROM tblSpOccurred WHERE CountyID=31";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1564,7 +1564,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Hamilton</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County33 FROM tblSpOccurred WHERE CountyID=33";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1576,7 +1576,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Maury</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County58 FROM tblSpOccurred WHERE CountyID=58";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1589,7 +1589,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Monroe</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County62 FROM tblSpOccurred WHERE CountyID=62";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1602,7 +1602,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<TD>Sumner</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County83 FROM tblSpOccurred WHERE CountyID=83";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1614,7 +1614,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Campbell</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County7 FROM tblSpOccurred WHERE CountyID=7";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1626,7 +1626,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Morgan</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County65 FROM tblSpOccurred WHERE CountyID=65";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1639,7 +1639,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hardin</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County36 FROM tblSpOccurred WHERE CountyID=36";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1661,7 +1661,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD> Carter</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County10 FROM tblSpOccurred WHERE CountyID=10";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1672,7 +1672,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Cheatham</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County11 FROM tblSpOccurred WHERE CountyID=11";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1684,7 +1684,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Williamson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County94 FROM tblSpOccurred WHERE CountyID=94";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1696,7 +1696,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Anderson</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County1 FROM tblSpOccurred WHERE CountyID=1";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1708,7 +1708,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Humphreys</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County43 FROM tblSpOccurred WHERE CountyID=43";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1720,7 +1720,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Fentress</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County25 FROM tblSpOccurred WHERE CountyID=25";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1732,7 +1732,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Dickson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County22 FROM tblSpOccurred WHERE CountyID=22";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1745,7 +1745,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Bledsoe</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County4 FROM tblSpOccurred WHERE CountyID=4";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1758,7 +1758,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Scott</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County76 FROM tblSpOccurred WHERE CountyID=76";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1771,7 +1771,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Putnam</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County71 FROM tblSpOccurred WHERE CountyID=71";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1784,7 +1784,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lewis</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County51 FROM tblSpOccurred WHERE CountyID=51";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1797,7 +1797,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Hickman</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County41 FROM tblSpOccurred WHERE CountyID=41";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1810,7 +1810,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Overton</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County67 FROM tblSpOccurred WHERE CountyID=67";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1823,7 +1823,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>DeKalb</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County21 FROM tblSpOccurred WHERE CountyID=21";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1835,7 +1835,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Unicoi</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County86 FROM tblSpOccurred WHERE CountyID=86";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1847,7 +1847,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<TD>Carroll</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County9 FROM tblSpOccurred WHERE CountyID=9";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1860,7 +1860,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>White</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County93 FROM tblSpOccurred WHERE CountyID=93";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1873,7 +1873,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Rhea</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County72 FROM tblSpOccurred WHERE CountyID=72";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1886,7 +1886,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cocke</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County15 FROM tblSpOccurred WHERE CountyID=15";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1898,7 +1898,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
 											<TD>Hawkins</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County37 FROM tblSpOccurred WHERE CountyID=37";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1909,7 +1909,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Claiborne</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County13 FROM tblSpOccurred WHERE CountyID=13";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1921,7 +1921,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Henry</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County40 FROM tblSpOccurred WHERE CountyID=40";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1934,7 +1934,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Wilson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County95 FROM tblSpOccurred WHERE CountyID=95";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1946,7 +1946,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Johnson</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County46 FROM tblSpOccurred WHERE CountyID=46";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1967,7 +1967,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Grainger</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County29 FROM tblSpOccurred WHERE CountyID=29";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1978,7 +1978,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Sullivan</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County82 FROM tblSpOccurred WHERE CountyID=82";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -1990,7 +1990,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Haywood</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County38 FROM tblSpOccurred WHERE CountyID=38";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2002,7 +2002,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
 											<TD>Greene</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County30 FROM tblSpOccurred WHERE CountyID=30";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2014,7 +2014,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Tipton</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County84 FROM tblSpOccurred WHERE CountyID=84";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2026,7 +2026,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Fayette</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County24 FROM tblSpOccurred WHERE CountyID=24";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2038,7 +2038,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>McNairy</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County60 FROM tblSpOccurred WHERE CountyID=60";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2050,7 +2050,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Union</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County87 FROM tblSpOccurred WHERE CountyID=87";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2062,7 +2062,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<TD>Meigs</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County61 FROM tblSpOccurred WHERE CountyID=61";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2075,7 +2075,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Obion</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County66 FROM tblSpOccurred WHERE CountyID=66";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2088,7 +2088,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Wayne</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County91 FROM tblSpOccurred WHERE CountyID=91";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2101,7 +2101,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											 <TD>Warren</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County89 FROM tblSpOccurred WHERE CountyID=89";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2114,7 +2114,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Clay</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County14 FROM tblSpOccurred WHERE CountyID=14";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2126,7 +2126,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
 											<TD>Washington</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County90 FROM tblSpOccurred WHERE CountyID=90";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2137,7 +2137,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Decatur</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County20 FROM tblSpOccurred WHERE CountyID=20";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2149,7 +2149,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Loudon</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County53 FROM tblSpOccurred WHERE CountyID=53";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2161,7 +2161,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Marshall</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County57 FROM tblSpOccurred WHERE CountyID=57";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2173,7 +2173,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lawrence</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County50 FROM tblSpOccurred WHERE CountyID=50";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2186,7 +2186,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<TD>Houston</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County42 FROM tblSpOccurred WHERE CountyID=42";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2199,7 +2199,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Sequatchie</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County77 FROM tblSpOccurred WHERE CountyID=77";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2212,7 +2212,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<TD>Jackson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County44 FROM tblSpOccurred WHERE CountyID=44";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2224,7 +2224,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Lauderdale</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County49 FROM tblSpOccurred WHERE CountyID=49";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2236,7 +2236,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Robertson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County74 FROM tblSpOccurred WHERE CountyID=74";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2248,7 +2248,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Hardeman</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County35 FROM tblSpOccurred WHERE CountyID=35";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2269,7 +2269,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Benton</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County3 FROM tblSpOccurred WHERE CountyID=3";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2280,7 +2280,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Bradley</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County6 FROM tblSpOccurred WHERE CountyID=6";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2292,7 +2292,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Cannon</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County8 FROM tblSpOccurred WHERE CountyID=8";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2305,7 +2305,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Perry</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County68 FROM tblSpOccurred WHERE CountyID=68";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2318,7 +2318,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Lake</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County48 FROM tblSpOccurred WHERE CountyID=48";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2331,7 +2331,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Bedford</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County2 FROM tblSpOccurred WHERE CountyID=2";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2344,7 +2344,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<TD>Lincoln</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County52 FROM tblSpOccurred WHERE CountyID=52";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2356,7 +2356,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>McMinn</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County59 FROM tblSpOccurred WHERE CountyID=59";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2368,7 +2368,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Macon</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County54 FROM tblSpOccurred WHERE CountyID=54";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2381,7 +2381,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Madison</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County55 FROM tblSpOccurred WHERE CountyID=55";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2394,7 +2394,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Henderson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County39 FROM tblSpOccurred WHERE CountyID=39";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2406,7 +2406,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Pickett</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County69 FROM tblSpOccurred WHERE CountyID=69";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2418,7 +2418,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Jefferson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County45 FROM tblSpOccurred WHERE CountyID=45";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2431,7 +2431,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Smith</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County80 FROM tblSpOccurred WHERE CountyID=80";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2443,7 +2443,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
 											<TD>Hancock</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County34 FROM tblSpOccurred WHERE CountyID=34";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2455,7 +2455,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Dyer</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County23 FROM tblSpOccurred WHERE CountyID=23";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2468,7 +2468,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Chester</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County12 FROM tblSpOccurred WHERE CountyID=12";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2481,7 +2481,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Gibson</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County27 FROM tblSpOccurred WHERE CountyID=27";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2493,7 +2493,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                         <TR>
                                           <TD>Hamblen</TD>
                                           <TD><?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County32 FROM tblSpOccurred WHERE CountyID=32";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2505,7 +2505,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Weakley</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County92 FROM tblSpOccurred WHERE CountyID=92";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2518,7 +2518,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Moore</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County64 FROM tblSpOccurred WHERE CountyID=64";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2531,7 +2531,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Trousdale</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County85 FROM tblSpOccurred WHERE CountyID=85";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -2544,7 +2544,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                           <TD>Crockett</TD>
                                           <TD>
                                    	  		<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS County17 FROM tblSpOccurred WHERE CountyID=17";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);

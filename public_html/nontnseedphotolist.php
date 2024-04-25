@@ -151,7 +151,7 @@ $start=($id)*$limit;
 		<?php 
 			$query = $_GET['query'];						
 									
-			mysql_select_db($database_Herbarium, $Herbarium);
+			 
 			$query_getPosts = "SELECT * FROM tblNonTNSeeds
 			
 			WHERE (Genus LIKE '%$query%') OR (Species LIKE '%$query%') OR (JKU LIKE '%$query%')

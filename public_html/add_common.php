@@ -157,7 +157,7 @@ $common = $_POST['CommonName'];
 	
 $insertSQL1 = "INSERT INTO tblCommonName (CommonName) VALUES ('".mysql_real_escape_string($common)."')";
 
-		mysql_select_db($database_Herbarium);
+		 
 
 	if (mysql_query($insertSQL1, $Herbarium)) {
 		echo "<h4 align='center'>The common name has been successfully added.</h4>";

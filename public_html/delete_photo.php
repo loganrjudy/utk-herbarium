@@ -35,7 +35,7 @@ if ((isset($_GET['PhotoID'])) && ($_GET['PhotoID'] != "")) {
   $deleteSQL = sprintf("DELETE FROM tblPhoto WHERE PhotoID=%s",
                        GetSQLValueString($_GET['PhotoID'], "int"));
 
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "seedphotolist.php";

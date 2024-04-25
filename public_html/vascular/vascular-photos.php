@@ -41,7 +41,7 @@ $varPhotoName = mysql_real_escape_string($_GET["PhotoNameID"]);
 $numcount = 0;
 $seedcount = 0;
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 
 $query_getPosts = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Seed, tblPhoto.PhotoName, tblPhoto.SeedPhotoName, tblPhotographer.PhotographerName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN (tblPhotographer RIGHT JOIN tblPhoto ON tblPhotographer.PhotographerID = tblPhoto.PhotgrapherID) ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE tblGenus.GenusName = '$varGenus' && tblPhoto.PhotoName IS NOT NULL ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName;";	
 

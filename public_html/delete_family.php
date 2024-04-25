@@ -35,7 +35,7 @@ if ((isset($_GET['FamilyID'])) && ($_GET['FamilyID'] != "")) {
   $deleteSQL = sprintf("DELETE FROM tblFamily WHERE FamilyID=%s",
                        GetSQLValueString($_GET['FamilyID'], "int"));
 
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "familylist.php";

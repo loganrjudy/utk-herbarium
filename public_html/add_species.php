@@ -130,7 +130,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 				   GetSQLValueString($_POST['NWI'], "text"),
 				   GetSQLValueString($_POST['Seed'], "text"));
 
-		  mysql_select_db($database_Herbarium, $Herbarium);
+		   
 		  $Result1 = mysql_query($insertSQL, $Herbarium) or die(mysql_error());
 
 		  $insertGoTo = "specieslist.php";
@@ -170,7 +170,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
       <label for="GenusName">Genus Name:</label> 
       <select name="GenusName" id="GenusName">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -207,7 +207,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
       <label for="FedStatusID">Federal Status:</label> 
       <select name="FedStatusID" id="FedStatusID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -222,7 +222,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
       <label for="StateStatusID">State Status:</label> 
       <select name="StateStatusID" id="StateStatusID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -237,7 +237,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
       <label for="NWI">NWI Status:</label> 
       <select name="NWI" id="NWI">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);

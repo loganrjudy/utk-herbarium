@@ -41,7 +41,7 @@ if ($varFederal != "") {
   $varStatus=$varFederal;
 }
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = sprintf("SELECT tblStateStatus.StateStatus, tblCategory.CategoryName, tblFamily.FamilyName, tblFedStatus.FedStatus, tblFedStatus.Description, tblStateStatus.Description, tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author, tblCommonName.CommonName, tblSynonym.Synonym FROM (tblCategory INNER JOIN tblFamily ON tblCategory.CategoryID = tblFamily.CategoryID) INNER JOIN (tblSynonym RIGHT JOIN (tblCommonName INNER JOIN (((tblStateStatus INNER JOIN (tblGenus INNER JOIN (tblFedStatus INNER JOIN tblSpecies ON tblFedStatus.FedStatusID = tblSpecies.FedStatusID) ON tblGenus.GenusID = tblSpecies.GenusID) ON tblStateStatus.StateStatusID = tblSpecies.StateStatusID) INNER JOIN tblLinkCommName ON tblSpecies.SpeciesID = tblLinkCommName.SpeciesID) LEFT JOIN tblLinkSynonym ON tblSpecies.SpeciesID = tblLinkSynonym.SpeciesID) ON tblCommonName.CommID = tblLinkCommName.CommID) ON tblSynonym.SynID = tblLinkSynonym.SynID) ON tblFamily.FamilyID = tblGenus.FamilyID");
 
 if ($varState != "") {

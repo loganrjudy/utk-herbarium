@@ -35,7 +35,7 @@ if ((isset($_GET['GenusID'])) && ($_GET['GenusID'] != "")) {
   $deleteSQL = sprintf("DELETE FROM tblGenus WHERE GenusID=%s",
                        GetSQLValueString($_GET['GenusID'], "int"));
 
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "genuslist.php";

@@ -35,7 +35,7 @@ if ((isset($_GET['SpeciesID'])) && ($_GET['SpeciesID'] != "") && ($_GET['CountyI
   $deleteSQL = sprintf("DELETE FROM tblSpOccurred WHERE SpeciesID=%s && CountyID=%s",
                        GetSQLValueString($_GET['SpeciesID'], "int"),GetSQLValueString($_GET['CountyID'], "text"));
 
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "edit_species.php";

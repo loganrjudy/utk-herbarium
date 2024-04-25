@@ -67,7 +67,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 								  <h5 align="center"><A href="vascular-browse-common.php#A">A</A> <A href="vascular-browse-common.php#B">B</A> <A href="vascular-browse-common.php#C">C</A> <A href="vascular-browse-common.php#D">D</A> <A href="vascular-browse-common.php#E">E</A> <A href="vascular-browse-common.php#F">F</A> <A href="vascular-browse-common.php#G">G</A> <A href="vascular-browse-common.php#H">H</A> <A href="vascular-browse-common.php#I">I</A> <A href="vascular-browse-common.php#J">J</A> <A href="vascular-browse-common.php#K">K</A> <A href="vascular-browse-common.php#L">L</A> <A href="vascular-browse-common.php#M">M</A> <A href="vascular-browse-common.php#N">N</A> <A href="vascular-browse-common.php#O">O</A> <A href="vascular-browse-common.php#P">P</A> <A href="vascular-browse-common.php#Q">Q</A> <A href="vascular-browse-common.php#R">R</A> <A href="vascular-browse-common.php#S">S</A> <A href="vascular-browse-common.php#T">T</A> <A href="vascular-browse-common.php#U">U</A> <A href="vascular-browse-common.php#V">V</A> <A href="vascular-browse-common.php#W">W</A> <A href="vascular-browse-common.php#X">X</A> <A href="vascular-browse-common.php#Y">Y</A> <A href="vascular-browse-common.php#Z">Z</A></h5>
 
 									<?php
-									mysql_select_db($database_Herbarium, $Herbarium);
+									 
 									$query_getPosts = "SELECT *, UPPER(LEFT(CommonName, 1)) AS first_char FROM tblCommonName WHERE UPPER(LEFT(CommonName, 1)) BETWEEN 'A' AND 'Z' ORDER BY CommonName";
 									$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 									$totalRows_getPosts = mysql_num_rows($getPosts);

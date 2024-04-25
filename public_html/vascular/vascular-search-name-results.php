@@ -43,7 +43,7 @@ $numcount = 0;
 if ($varFamily == "" && $varGenus == "" && $varSpecies == "" && $varCommon == "") {
   header("Location: vascular-search-name.php?error=1"); }
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = "SELECT tblCategory.CategoryName, tblFamily.FamilyName, tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author, tblCommonName.CommonName, tblSynonym.Synonym 
 
 FROM tblCategory INNER JOIN tblFamily ON tblCategory.CategoryID = tblFamily.CategoryID

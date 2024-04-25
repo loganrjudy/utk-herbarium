@@ -39,7 +39,7 @@ $varSpecies = mysql_real_escape_string($_GET["SpeciesID"]);
 
 if ($varCategory != "" && $varFamily != "" && $varGenus != "") {
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPosts = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName FROM tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID WHERE tblGenus.GenusName = '$varGenus' ORDER BY tblSpecies.SpeciesName;";	
 
 $selectCount = "SELECT COUNT(tblSpecies.SpeciesName) AS CountOfSpeciesName FROM tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID WHERE tblGenus.GenusName='$varGenus';";

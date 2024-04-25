@@ -42,7 +42,7 @@ $seedcount = 0;
 
 if ($varCategory != "" && $varFamily != "" && $varGenus != "") {
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
     
 $query_getPosts = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Seed, tblPhoto.PhotoName, tblPhoto.SeedPhotoName, tblPhoto.JKU, tblPhoto.orientation, tblPhotographer.PhotographerName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN (tblPhotographer RIGHT JOIN tblPhoto ON tblPhotographer.PhotographerID = tblPhoto.PhotgrapherID) ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE tblGenus.GenusName = '$varGenus' && tblSpecies.SpeciesName= '$varSpecies';";	
 

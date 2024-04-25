@@ -132,7 +132,7 @@ $updateSQL = sprintf("UPDATE tblSpecies SET SpeciesName=%s, Author=%s, Sp_Author
 				   GetSQLValueString($_POST['Seed'], "text"),
                    GetSQLValueString($_POST['SpeciesID'], "int"));
 
-		  mysql_select_db($database_Herbarium, $Herbarium);
+		   
 		  $Result1 = mysql_query($updateSQL, $Herbarium) or die(mysql_error());
 
 		  $insertGoTo = "specieslist.php";
@@ -149,7 +149,7 @@ $colname_getPost = "-1";
 if (isset($_GET['SpeciesID'])) {
   $colname_getPost = $_GET['SpeciesID'];
 }
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = sprintf("SELECT * FROM tblGenus 
 
 INNER JOIN tblSpecies ON tblSpecies.GenusID = tblGenus.GenusID
@@ -191,7 +191,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
             <option value="<?php echo $row_getPost['GenusID']; ?>" selected="selected"><?php echo $row_getPost['GenusName']; ?></option>
             <option value disabled>-------------</option>
 		<?php
-				mysql_select_db($database_Herbarium, $Herbarium);
+				 
 				$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
 				$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 				$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -238,7 +238,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
             <option value="<?php echo $row_getPost['FedStatusID']; ?>" selected="selected"><?php if ($row_getPost['FedStatusID'] == "C") { echo "Candidate Species";} elseif ($row_getPost['FedStatusID'] == "DM") {echo "Delisted";} elseif ($row_getPost['FedStatusID'] == "LE") {echo "Listed Endangered";} elseif ($row_getPost['FedStatusID'] == "LT") {echo "Listed Threatened";} else {echo "No Status";} ?></option>
             <option value disabled>-------------</option>
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -255,7 +255,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
             <option value="<?php echo $row_getPost['StateStatusID']; ?>" selected="selected"><?php if ($row_getPost['StateStatusID'] == "E") { echo "Endangered";} elseif ($row_getPost['StateStatusID'] == "E-P") {echo "Endangered -Possibly Extirpated";} elseif ($row_getPost['StateStatusID'] == "P") {echo "Possibly Extirpated";} elseif ($row_getPost['StateStatusID'] == "S") {echo "Special Concern";} elseif ($row_getPost['StateStatusID'] == "S-CE") {echo "Special Concern -Commercially Exploited";} elseif ($row_getPost['StateStatusID'] == "T") {echo "Threatened";} elseif ($row_getPost['StateStatusID'] == "T-CE") {echo "Threatened -Commercially Exploited";} else {echo "No Status";} ?></option>
             <option value disabled>-------------</option>
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -272,7 +272,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
             <option value="<?php echo $row_getPost['NWI']; ?>" selected="selected"><?php if ($row_getPost['NWI'] == "FAC") { echo "Facultative";} elseif ($row_getPost['NWI'] == "FAC+") {echo "Facultative +";} elseif ($row_getPost['NWI'] == "FAC-") {echo "Facultative -";} elseif ($row_getPost['NWI'] == "FACU") {echo "Facultative Upland";} elseif ($row_getPost['NWI'] == "FACU+") {echo "Facultative Upland +";} elseif ($row_getPost['NWI'] == "FACU-") {echo "Facultative Upland -";} elseif ($row_getPost['NWI'] == "FACW") {echo "Facultative Wetland";} elseif ($row_getPost['NWI'] == "FACW+") {echo "Facultative Wetland +";} elseif ($row_getPost['NWI'] == "FACW-") {echo "Facultative Wetland -";} elseif ($row_getPost['NWI'] == "NI") {echo "No Wetland Indicator";} elseif ($row_getPost['NWI'] == "OBL") {echo "Obligate Wetland";} elseif ($row_getPost['NWI'] == "UPL") {echo "Obligate Upland";} else {echo "Not Applicable";} ?></option>
             <option value disabled>-------------</option>
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -298,7 +298,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 	
 		$species = $_GET['SpeciesID'];	
 	
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblGenus 
 
 		INNER JOIN tblSpecies ON tblSpecies.GenusID = tblGenus.GenusID

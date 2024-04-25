@@ -35,7 +35,7 @@ if ((isset($_GET['CommID'])) && ($_GET['CommID'] != "")) {
   $deleteSQL = sprintf("DELETE FROM tblCommonName WHERE CommID=%s",
                        GetSQLValueString($_GET['CommID'], "int"));
 
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "commonlist.php";

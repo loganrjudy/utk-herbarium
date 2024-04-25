@@ -136,7 +136,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 	  <label for="SpeciesID">Species:</label>
       <select name="SpeciesID" id="SpeciesID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID ORDER BY GenusName, SpeciesName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -151,7 +151,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
       <label for="CommID">Common Name:</label>
       <select name="CommID" id="CommID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblCommonName ORDER BY CommonName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -184,7 +184,7 @@ $species = $_POST['SpeciesID'];
 	
 $insertSQL1 = "INSERT INTO tblLinkCommName (SpeciesID, CommID) VALUES ('$species', '$common')";
 
-		mysql_select_db($database_Herbarium);
+		 
 
 	if (mysql_query($insertSQL1, $Herbarium)) {
 		echo "<h4 align='center'>The common name has been successfully associated to the species.</h4>";

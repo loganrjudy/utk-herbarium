@@ -109,7 +109,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC";
 $getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 $totalRows_getPosts = mysql_num_rows($getPosts);

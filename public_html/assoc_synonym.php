@@ -136,7 +136,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 	  <label for="SpeciesID">Species:</label>
       <select name="SpeciesID" id="SpeciesID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID ORDER BY GenusName, SpeciesName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -151,7 +151,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
       <label for="Synonym">Synonym:</label>
       <select name="SynID" id="SynID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblSynonym ORDER BY Synonym ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -184,7 +184,7 @@ $SynID = $_POST['SynID'];
 	
 $insertSQL1 = "INSERT INTO tblLinkSynonym (SpeciesID, SynID) VALUES ('$SpeciesID', '$SynID')";
 
-		mysql_select_db($database_Herbarium);
+		 
 
 	if (mysql_query($insertSQL1, $Herbarium)) {
 		echo "<h4 align='center'>The synonym has been successfully added to the species.</h4>";

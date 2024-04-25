@@ -36,7 +36,7 @@ $varCounty = $_POST["CountyNameID"];
 $varCategory = $_POST["CategoryNameID"];
 $varOrigin = $_POST["OriginNameID"];
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = "SELECT tblNativity.Origin, tblCategory.CategoryName, tblCounty.CountyName, tblFamily.FamilyName, tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author, tblCommonName.CommonName, tblSynonym.Synonym 
 
 FROM tblCategory INNER JOIN tblFamily ON tblCategory.CategoryID = tblFamily.CategoryID

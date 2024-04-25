@@ -74,7 +74,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td><a href="checklist-type.php?CategoryID=1">Pteridophytes</a></td>
                                       <td align="center">
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(CategoryID) AS Family1 FROM tblFamily WHERE CategoryID=1";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -84,7 +84,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                      </td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(GenusID) AS Genus1 FROM tblGenus INNER JOIN tblFamily ON tblFamily.FamilyID = tblGenus.FamilyID WHERE tblFamily.CategoryID=1";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -93,7 +93,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										  ?></td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS Species1 FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID INNER JOIN tblFamily ON tblGenus.FamilyID = tblFamily.FamilyID WHERE tblFamily.CategoryID=1";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -105,7 +105,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td><a href="checklist-type.php?CategoryID=2">Gymnosperms</a></td>
                                       <td align="center">
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(CategoryID) AS Family2 FROM tblFamily WHERE CategoryID=2";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -115,7 +115,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										</td>
                                       <td align="center">
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(GenusID) AS Genus2 FROM tblGenus INNER JOIN tblFamily ON tblFamily.FamilyID = tblGenus.FamilyID WHERE tblFamily.CategoryID=2";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -125,7 +125,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                      </td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS Species2 FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID INNER JOIN tblFamily ON tblGenus.FamilyID = tblFamily.FamilyID WHERE tblFamily.CategoryID=2";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -140,7 +140,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="checklist-type.php?CategoryID=3">Monocots</a></td>
                                       <td align="center">
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(CategoryID) AS Family3 FROM tblFamily WHERE CategoryID=3";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -150,7 +150,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                      </td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(GenusID) AS Genus3 FROM tblGenus INNER JOIN tblFamily ON tblFamily.FamilyID = tblGenus.FamilyID WHERE tblFamily.CategoryID=3";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -159,7 +159,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										  ?></td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS Species3 FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID INNER JOIN tblFamily ON tblGenus.FamilyID = tblFamily.FamilyID WHERE tblFamily.CategoryID=3";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -171,7 +171,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="checklist-type.php?CategoryID=4">Dicots</a></td>
                                       <td align="center">
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(CategoryID) AS Family4 FROM tblFamily WHERE CategoryID=4";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -181,7 +181,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                      </td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(GenusID) AS Genus4 FROM tblGenus INNER JOIN tblFamily ON tblFamily.FamilyID = tblGenus.FamilyID WHERE tblFamily.CategoryID=4";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -190,7 +190,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										  ?></td>
                                       <td align="center">
                                    	  <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS Species4 FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID INNER JOIN tblFamily ON tblGenus.FamilyID = tblFamily.FamilyID WHERE tblFamily.CategoryID=4";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -203,7 +203,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td align="center">
                                       	<strong>
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(FamilyID) AS FamilyTotal FROM tblFamily";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -214,7 +214,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td align="center">
                                    	    <strong>
                                    	    <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(GenusID) AS GenusTotal FROM tblGenus";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -225,7 +225,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       <td align="center">
                                    	    <strong>
                                    	    <?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(SpeciesID) AS SpeciesTotal FROM tblSpecies";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);

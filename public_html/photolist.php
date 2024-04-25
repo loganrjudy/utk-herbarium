@@ -151,7 +151,7 @@ $start=($id-1)*$limit;
 		<?php 
 			$query = $_GET['query'];						
 									
-			mysql_select_db($database_Herbarium, $Herbarium);
+			 
 			$query_getPosts = "SELECT tblPhoto.PhotoName, tblPhoto.PhotoID, tblCategory.CategoryName, tblFamily.FamilyName
 			
 			FROM tblCategory

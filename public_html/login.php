@@ -54,7 +54,7 @@ if (isset($_POST['username'])) {
   $MM_redirectLoginSuccess = "manage_database.php";
   $MM_redirectLoginFailed = "login.php";
   $MM_redirecttoReferrer = true;
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   
   $LoginRS__query=sprintf("SELECT username, password FROM Users WHERE username=%s AND password=%s",
     GetSQLValueString($loginUsername, "text"), GetSQLValueString($password, "text")); 

@@ -121,7 +121,7 @@ $updateSQL = sprintf("UPDATE tblSynonym SET Synonym=%s WHERE SynID=%s",
 				   GetSQLValueString($_POST['Synonym'], "text"),
                    GetSQLValueString($_POST['SynID'], "int"));
 
-		  mysql_select_db($database_Herbarium, $Herbarium);
+		   
 		  $Result1 = mysql_query($updateSQL, $Herbarium) or die(mysql_error());
 
 		  $insertGoTo = "synonymlist.php";
@@ -138,7 +138,7 @@ $colname_getPost = "-1";
 if (isset($_GET['SynID'])) {
   $colname_getPost = $_GET['SynID'];
 }
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = sprintf("SELECT * FROM tblSynonym WHERE SynID = %s", GetSQLValueString($colname_getPost, "int"));
 $getPost = mysql_query($query_getPost, $Herbarium) or die(mysql_error());
 $row_getPost = mysql_fetch_assoc($getPost);

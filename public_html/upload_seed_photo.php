@@ -148,7 +148,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 									
 					$insertSQL = "INSERT INTO tblNonTNSeeds (SeedFileName, Species, Genus, JKU, Orientation) VALUES ('$seed_image_name', '$selected_species', '$selected_genus', '$selected_jku', '$selected_orientation')";
 									
-						mysql_select_db($database_Herbarium);
+						 
 									
 						if (mysql_query($insertSQL, $Herbarium)) {
 							echo "Image was added successfully to the database.<br>";

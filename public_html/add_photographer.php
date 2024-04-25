@@ -122,7 +122,7 @@ $insertSQL = sprintf("INSERT INTO tblPhotographer (LastName, PhotographerName, I
 				   GetSQLValueString($_POST['PhotographerName'], "text"),
 				   GetSQLValueString($_POST['InstitutionAddress'], "text"));
 
-		  mysql_select_db($database_Herbarium, $Herbarium);
+		   
 		  $Result1 = mysql_query($insertSQL, $Herbarium) or die(mysql_error());
 
 		  $insertGoTo = "photographer.php";

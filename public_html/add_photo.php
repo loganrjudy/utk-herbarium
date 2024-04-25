@@ -145,7 +145,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 	  <label for="Family">Family:</label>
       <select name="Family" id="Family">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -160,7 +160,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 	  <label for="SpeciesID">Species:</label>
       <select name="SpeciesID" id="SpeciesID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID ORDER BY GenusName, SpeciesName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -175,7 +175,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 	  <label for="PhotgrapherID">Photographer:</label>
       <select name="PhotgrapherID" id="PhotgrapherID">
 		<?php 
-		mysql_select_db($database_Herbarium, $Herbarium);
+		 
 		$query_getPosts = "SELECT * FROM tblPhotographer ORDER BY PhotographerName ASC";
 		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);

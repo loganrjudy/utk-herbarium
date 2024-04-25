@@ -118,7 +118,7 @@ $id=$_GET['id'];
 $start=($id-1)*$limit;
 }
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPosts = "SELECT * FROM tblPhotographer ORDER BY LastName ASC LIMIT $start, $limit";
 $getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 $row_getPosts = mysql_fetch_assoc($getPosts);

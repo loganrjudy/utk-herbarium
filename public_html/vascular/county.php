@@ -39,7 +39,7 @@ if (isset($_GET['CountyID'])) {
 else {
 	echo "Record not found";
 }
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPost = "SELECT * 
 
 FROM tblCategory INNER JOIN tblFamily ON tblCategory.CategoryID = tblFamily.CategoryID

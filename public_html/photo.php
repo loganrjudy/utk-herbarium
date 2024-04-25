@@ -65,7 +65,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
      </header>
 									<p>
                                       	<?php 
-											mysql_select_db($database_Herbarium, $Herbarium);
+											 
 											$query_getPosts = "SELECT COUNT(PhotoID) AS Photos FROM tblPhoto";
 											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -74,7 +74,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										  ?>
 										   images of ca.
 											<?php 
-												mysql_select_db($database_Herbarium, $Herbarium);
+												 
 												$query_getPosts = "SELECT COUNT(SpeciesID) AS Species FROM tblSpecies";
 												$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 												$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -83,7 +83,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											  ?>
 										  species (ca. 97% of the state flora), and
 											<?php 
-												mysql_select_db($database_Herbarium, $Herbarium);
+												 
 												$query_getPosts = "SELECT COUNT(SpeciesID) AS SpeciesCounty FROM tblSpOccurred";
 												$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 												$row_getPosts = mysql_fetch_assoc($getPosts);
@@ -112,7 +112,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 									  </tr>
 									  <?php
 										
-										mysql_select_db($database_Herbarium, $Herbarium);
+										 
 										$query_getPosts = "SELECT * FROM tblPhotographer ORDER BY LastName ASC";
 										$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 										$row_getPosts = mysql_fetch_assoc($getPosts);

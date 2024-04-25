@@ -32,7 +32,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-mysql_select_db($database_Herbarium, $Herbarium);
+ 
 $query_getPosts = "SELECT *, LEFT(FamilyName, 1) AS first_char FROM tblFamily WHERE UPPER(LEFT(FamilyName, 1)) BETWEEN 'A' AND 'Z' ORDER BY FamilyName";
 $getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
 $totalRows_getPosts = mysql_num_rows($getPosts);

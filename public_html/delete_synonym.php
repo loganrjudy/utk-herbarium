@@ -35,7 +35,7 @@ if ((isset($_GET['SynID'])) && ($_GET['SynID'] != "")) {
   $deleteSQL = sprintf("DELETE FROM tblSynonym WHERE SynID=%s",
                        GetSQLValueString($_GET['SynID'], "int"));
 
-  mysql_select_db($database_Herbarium, $Herbarium);
+   
   $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "synonymlist.php";
