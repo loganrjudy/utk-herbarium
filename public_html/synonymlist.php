@@ -153,7 +153,7 @@ $start=($id-1)*$limit;
 									
 			 
 			$query_getPosts = "SELECT * FROM tblSynonym WHERE (Synonym LIKE '%$query%') ORDER BY Synonym ASC LIMIT $start, $limit";
-			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 			$row_getPosts = mysqli_fetch_assoc($getPosts);
 			$totalRows_getPosts = mysqli_num_rows($getPosts);
 			

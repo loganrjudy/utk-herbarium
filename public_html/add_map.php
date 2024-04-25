@@ -111,7 +111,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 
  
 $query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC";
-$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 $totalRows_getPosts = mysqli_num_rows($getPosts);
 ?>
 

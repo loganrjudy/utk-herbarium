@@ -180,7 +180,7 @@ $start=($id-1)*$limit;
 									
 			 
 			$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID WHERE (GenusName LIKE '%$query%') OR (SpeciesName LIKE '%$query%') OR (Author LIKE '%$query%') ORDER BY GenusName, SpeciesName ASC LIMIT $start, $limit";
-			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+			$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 			$row_getPosts = mysqli_fetch_assoc($getPosts);
 			$totalRows_getPosts = mysqli_num_rows($getPosts);
 			

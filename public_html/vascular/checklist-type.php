@@ -53,7 +53,7 @@ WHERE tblCategory.CategoryID = %s ORDER BY tblFamily.FamilyName, tblGenus.GenusN
 
 
 $getPost =mysqli_query($Herbarium, $query_getPost)
- or die(mysql_error());
+ or die(mysqli_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysqli_num_rows($getPost);
 

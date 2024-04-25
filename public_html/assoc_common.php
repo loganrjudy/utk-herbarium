@@ -138,7 +138,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblSpecies INNER JOIN tblGenus ON tblGenus.GenusID = tblSpecies.GenusID ORDER BY GenusName, SpeciesName ASC";
-		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
@@ -153,7 +153,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblCommonName ORDER BY CommonName ASC";
-		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>

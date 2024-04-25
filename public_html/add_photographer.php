@@ -123,7 +123,7 @@ $insertSQL = sprintf("INSERT INTO tblPhotographer (LastName, PhotographerName, I
 				   GetSQLValueString($_POST['InstitutionAddress'], "text"));
 
 		   
-		  $Result1 =mysqli_query($Herbarium, $insertSQL) or die(mysql_error());
+		  $Result1 =mysqli_query($Herbarium, $insertSQL) or die(mysqli_error());
 
 		  $insertGoTo = "photographer.php";
 		  if (isset($_SERVER['QUERY_STRING'])) {

@@ -126,7 +126,7 @@ $updateSQL = sprintf("UPDATE tblPhotographer SET LastName=%s, PhotographerName=%
 
 		   
           $Result1 =mysqli_query($Herbarium, $updateSQL)
- or die(mysql_error());
+ or die(mysqli_error());
 
 		  $updateGoTo = "photographer.php";
 		  if (isset($_SERVER['QUERY_STRING'])) {
@@ -145,7 +145,7 @@ if (isset($_GET['PhotographerID'])) {
  
 $query_getPost = sprintf("SELECT * FROM tblPhotographer WHERE PhotographerID = %s", GetSQLValueString($colname_getPost, "int"));
 $getPost =mysqli_query($Herbarium, $query_getPost)
- or die(mysql_error());
+ or die(mysqli_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysqli_num_rows($getPost);
 ?>

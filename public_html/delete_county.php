@@ -36,7 +36,7 @@ if ((isset($_GET['SpeciesID'])) && ($_GET['SpeciesID'] != "") && ($_GET['CountyI
                        GetSQLValueString($_GET['SpeciesID'], "int"),GetSQLValueString($_GET['CountyID'], "text"));
 
    
-  $Result1 =mysqli_query($Herbarium, $deleteSQL) or die(mysql_error());
+  $Result1 =mysqli_query($Herbarium, $deleteSQL) or die(mysqli_error());
 
   $deleteGoTo = "edit_species.php";
   if (isset($_GET['SpeciesID'])) {

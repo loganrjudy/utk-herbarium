@@ -42,7 +42,7 @@ else {
  
 $query_getPost = sprintf("SELECT tblCategory.CategoryName, tblFamily.FamilyName, tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author, tblCommonName.CommonName, tblSynonym.Synonym, tblSpecies.OriginID, tblNWIStatus.NWIStatus, tblStateStatus.StateStatus, tblFedStatus.FedStatus FROM tblStateStatus INNER JOIN (tblFedStatus INNER JOIN (tblNWIStatus INNER JOIN (tblSynonym RIGHT JOIN (((((tblCategory INNER JOIN tblFamily ON tblCategory.CategoryID = tblFamily.CategoryID) INNER JOIN tblGenus ON tblFamily.FamilyID = tblGenus.FamilyID) INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) INNER JOIN (tblCommonName INNER JOIN tblLinkCommName ON tblCommonName.CommID = tblLinkCommName.CommID) ON tblSpecies.SpeciesID = tblLinkCommName.SpeciesID) LEFT JOIN tblLinkSynonym ON tblSpecies.SpeciesID = tblLinkSynonym.SpeciesID) ON tblSynonym.SynID = tblLinkSynonym.SynID) ON tblNWIStatus.NWI = tblSpecies.NWI) ON tblFedStatus.FedStatusID = tblSpecies.FedStatusID) ON tblStateStatus.StateStatusID = tblSpecies.StateStatusID WHERE tblCommonName.CommID = %s ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author;", GetSQLValueString($colname_getPost, "int"));
 $getPost =mysqli_query($Herbarium, $query_getPost)
- or die(mysql_error());
+ or die(mysqli_error());
 $row_getPost = mysqli_fetch_assoc($getPost);
 $totalRows_getPost = mysqli_num_rows($getPost);
 

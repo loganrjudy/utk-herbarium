@@ -34,7 +34,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 
  
 $query_getPosts = "SELECT *, LEFT(FamilyName, 1) AS first_char FROM tblFamily WHERE UPPER(LEFT(FamilyName, 1)) BETWEEN 'A' AND 'Z' ORDER BY FamilyName";
-$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 $totalRows_getPosts = mysqli_num_rows($getPosts);
 
 $current_char = '';

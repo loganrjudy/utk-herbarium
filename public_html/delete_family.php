@@ -36,7 +36,7 @@ if ((isset($_GET['FamilyID'])) && ($_GET['FamilyID'] != "")) {
                        GetSQLValueString($_GET['FamilyID'], "int"));
 
    
-  $Result1 =mysqli_query($Herbarium, $deleteSQL) or die(mysql_error());
+  $Result1 =mysqli_query($Herbarium, $deleteSQL) or die(mysqli_error());
 
   $deleteGoTo = "familylist.php";
   if (isset($_SERVER['QUERY_STRING'])) {

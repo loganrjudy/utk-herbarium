@@ -45,19 +45,19 @@ $seedcount = 0;
 
 $query_getPosts = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Seed, tblPhoto.PhotoName, tblPhoto.SeedPhotoName, tblPhotographer.PhotographerName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN (tblPhotographer RIGHT JOIN tblPhoto ON tblPhotographer.PhotographerID = tblPhoto.PhotgrapherID) ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE tblGenus.GenusName = '$varGenus' && tblPhoto.PhotoName IS NOT NULL ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName;";	
 
-$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 $totalRows_getPosts = mysqli_num_rows($getPosts);
 
 $query_getPost = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Seed, tblPhoto.PhotoName, tblPhoto.SeedPhotoName, tblPhotographer.PhotographerName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN (tblPhotographer RIGHT JOIN tblPhoto ON tblPhotographer.PhotographerID = tblPhoto.PhotgrapherID) ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE tblGenus.GenusName = '$varGenus' && tblPhoto.PhotoName IS NOT NULL ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName;";	
 
 $getPost =mysqli_query($Herbarium, $query_getPost)
- or die(mysql_error());
+ or die(mysqli_error());
 $totalRows_getPost = mysqli_num_rows($getPost);
 
 $query_getPost1 = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Seed, tblPhoto.PhotoName, tblPhoto.SeedPhotoName, tblPhotographer.PhotographerName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN (tblPhotographer RIGHT JOIN tblPhoto ON tblPhotographer.PhotographerID = tblPhoto.PhotgrapherID) ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE tblGenus.GenusName = '$varGenus' && tblPhoto.PhotoName IS NOT NULL ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName;";	
 
 $getPost1 =mysqli_query($Herbarium, $query_getPost1)
- or die(mysql_error());
+ or die(mysqli_error());
 $row_getPost1 = mysqli_fetch_assoc($getPost1);
 $totalRows_getPost1 = mysqli_num_rows($getPost1);
 

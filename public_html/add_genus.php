@@ -126,7 +126,7 @@ $insertSQL = sprintf("INSERT INTO tblGenus (GenusName, G_Author, G_CommName, Fam
 				   GetSQLValueString($_POST['FamilyID'], "text"));
 
 		   
-		  $Result1 =mysqli_query($Herbarium, $insertSQL) or die(mysql_error());
+		  $Result1 =mysqli_query($Herbarium, $insertSQL) or die(mysqli_error());
 
 		  $insertGoTo = "genuslist.php";
 		  if (isset($_SERVER['QUERY_STRING'])) {
@@ -176,7 +176,7 @@ $insertSQL = sprintf("INSERT INTO tblGenus (GenusName, G_Author, G_CommName, Fam
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblFamily ORDER BY FamilyName ASC";
-		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 		$row_getPosts = mysqli_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysqli_num_rows($getPosts);
 		?>
