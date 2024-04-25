@@ -62,7 +62,7 @@ WHERE tblFamily.FamilyID = %s
 ORDER BY tblGenus.GenusName, tblSpecies.SpeciesName, tblSpecies.Author;", GetSQLValueString($colname_getPost, "int"));
 
 
-$getPost = mysql_query($query_getPost, $Herbarium) or die(mysql_error());
+$getPost =mysqli_query($query_getPost, $Herbarium) or die(mysql_error());
 $row_getPost = mysql_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 

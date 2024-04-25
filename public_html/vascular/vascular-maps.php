@@ -44,10 +44,10 @@ $query_getPosts = "SELECT tblGenus.GenusName, tblSpecies.SpeciesName FROM tblGen
 
 $selectCount = "SELECT COUNT(tblSpecies.SpeciesName) AS CountOfSpeciesName FROM tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID WHERE tblGenus.GenusName='$varGenus';";
 
-$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 $totalRows_getPosts = mysql_num_rows($getPosts);
 	
-$varCount = mysql_query($selectCount);
+$varCount =mysqli_query($selectCount);
 $countSpecies = mysql_fetch_assoc($varCount);
 }
 

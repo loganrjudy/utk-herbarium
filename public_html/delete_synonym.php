@@ -36,7 +36,7 @@ if ((isset($_GET['SynID'])) && ($_GET['SynID'] != "")) {
                        GetSQLValueString($_GET['SynID'], "int"));
 
    
-  $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
+  $Result1 =mysqli_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "synonymlist.php";
   if (isset($_SERVER['QUERY_STRING'])) {

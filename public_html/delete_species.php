@@ -36,7 +36,7 @@ if ((isset($_GET['SpeciesID'])) && ($_GET['SpeciesID'] != "")) {
                        GetSQLValueString($_GET['SpeciesID'], "int"));
 
    
-  $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
+  $Result1 =mysqli_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "specieslist.php";
   if (isset($_SERVER['QUERY_STRING'])) {

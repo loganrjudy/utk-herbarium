@@ -36,7 +36,7 @@ if ((isset($_GET['SeedID'])) && ($_GET['SeedID'] != "")) {
                        GetSQLValueString($_GET['SeedID'], "int"));
 
    
-  $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
+  $Result1 =mysqli_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "nontnseedphotolist.php";
   if (isset($_SERVER['QUERY_STRING'])) {

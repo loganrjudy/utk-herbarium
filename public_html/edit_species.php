@@ -133,7 +133,7 @@ $updateSQL = sprintf("UPDATE tblSpecies SET SpeciesName=%s, Author=%s, Sp_Author
                    GetSQLValueString($_POST['SpeciesID'], "int"));
 
 		   
-		  $Result1 = mysql_query($updateSQL, $Herbarium) or die(mysql_error());
+		  $Result1 =mysqli_query($updateSQL, $Herbarium) or die(mysql_error());
 
 		  $insertGoTo = "specieslist.php";
 		  if (isset($_SERVER['QUERY_STRING'])) {
@@ -158,7 +158,7 @@ LEFT JOIN tblCounty ON tblCounty.CountyID = tblSpOccurred.CountyID
 
 WHERE tblSpecies.SpeciesID = %s", GetSQLValueString($colname_getPost, "int"));
 
-$getPost = mysql_query($query_getPost, $Herbarium) or die(mysql_error());
+$getPost =mysqli_query($query_getPost, $Herbarium) or die(mysql_error());
 $row_getPost = mysql_fetch_assoc($getPost);
 $totalRows_getPost = mysql_num_rows($getPost);
 ?>
@@ -193,7 +193,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		<?php
 				 
 				$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
-				$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+				$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 				$row_getPosts = mysql_fetch_assoc($getPosts);
 				$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -240,7 +240,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
-		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -257,7 +257,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
-		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -274,7 +274,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
-		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -307,7 +307,7 @@ $totalRows_getPost = mysql_num_rows($getPost);
 
 		WHERE tblSpecies.SpeciesID = '$species'";
 		  
-		$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>

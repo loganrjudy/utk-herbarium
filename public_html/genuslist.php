@@ -153,7 +153,7 @@ $start=($id-1)*$limit;
 									
 			 
 			$query_getPosts = "SELECT * FROM tblGenus WHERE (GenusName LIKE '%$query%') OR (G_Author LIKE '%$query%') OR (G_CommName LIKE '%$query%') ORDER BY GenusName ASC LIMIT $start, $limit";
-			$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+			$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 			$row_getPosts = mysql_fetch_assoc($getPosts);
 			$totalRows_getPosts = mysql_num_rows($getPosts);
 			

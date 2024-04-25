@@ -36,7 +36,7 @@ if ((isset($_GET['CommID'])) && ($_GET['CommID'] != "")) {
                        GetSQLValueString($_GET['CommID'], "int"));
 
    
-  $Result1 = mysql_query($deleteSQL, $Herbarium) or die(mysql_error());
+  $Result1 =mysqli_query($deleteSQL, $Herbarium) or die(mysql_error());
 
   $deleteGoTo = "commonlist.php";
   if (isset($_SERVER['QUERY_STRING'])) {

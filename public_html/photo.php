@@ -67,7 +67,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
                                       	<?php 
 											 
 											$query_getPosts = "SELECT COUNT(PhotoID) AS Photos FROM tblPhoto";
-											$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+											$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 											$row_getPosts = mysql_fetch_assoc($getPosts);
 											$totalRows_getPosts = mysql_num_rows($getPosts);
 										  	echo number_format($row_getPosts['Photos']);
@@ -76,7 +76,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<?php 
 												 
 												$query_getPosts = "SELECT COUNT(SpeciesID) AS Species FROM tblSpecies";
-												$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+												$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 												$row_getPosts = mysql_fetch_assoc($getPosts);
 												$totalRows_getPosts = mysql_num_rows($getPosts);
 												echo number_format($row_getPosts['Species']);
@@ -85,7 +85,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 											<?php 
 												 
 												$query_getPosts = "SELECT COUNT(SpeciesID) AS SpeciesCounty FROM tblSpOccurred";
-												$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+												$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 												$row_getPosts = mysql_fetch_assoc($getPosts);
 												$totalRows_getPosts = mysql_num_rows($getPosts);
 												echo number_format($row_getPosts['SpeciesCounty']);
@@ -114,7 +114,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 										
 										 
 										$query_getPosts = "SELECT * FROM tblPhotographer ORDER BY LastName ASC";
-										$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+										$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 										$row_getPosts = mysql_fetch_assoc($getPosts);
 										$totalRows_getPosts = mysql_num_rows($getPosts);
 										

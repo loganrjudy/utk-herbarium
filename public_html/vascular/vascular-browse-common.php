@@ -69,7 +69,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 									<?php
 									 
 									$query_getPosts = "SELECT *, UPPER(LEFT(CommonName, 1)) AS first_char FROM tblCommonName WHERE UPPER(LEFT(CommonName, 1)) BETWEEN 'A' AND 'Z' ORDER BY CommonName";
-									$getPosts = mysql_query($query_getPosts, $Herbarium) or die(mysql_error());
+									$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
 									$totalRows_getPosts = mysql_num_rows($getPosts);
 									
 									$current_char = '';
