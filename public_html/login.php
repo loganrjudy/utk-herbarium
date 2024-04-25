@@ -59,7 +59,8 @@ if (isset($_POST['username'])) {
   $LoginRS__query=sprintf("SELECT username, password FROM Users WHERE username=%s AND password=%s",
     GetSQLValueString($loginUsername, "text"), GetSQLValueString($password, "text")); 
    
-  $LoginRS =mysqli_query($LoginRS__query, $Herbarium) or die(mysql_error());
+  $LoginRS =mysqli_query($Herbarium, $LoginRS__query)
+ or die(mysql_error());
   $loginFoundUser = mysql_num_rows($LoginRS);
   if ($loginFoundUser) {
      $loginStrGroup = "";

@@ -34,7 +34,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 
  
 $query_getPosts = "SELECT * FROM tblFedStatus WHERE FedStatusID != 'N/A' ORDER BY FedStatus ASC";
-$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
+$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 $row_getPosts = mysql_fetch_assoc($getPosts);
 $totalRows_getPosts = mysql_num_rows($getPosts);
 ?>

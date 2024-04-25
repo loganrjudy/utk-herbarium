@@ -34,7 +34,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 
  
 $query_getPosts = "SELECT *, LEFT(GenusName, 1) AS first_char FROM tblGenus WHERE UPPER(LEFT(GenusName, 1)) BETWEEN 'A' AND 'Z' ORDER BY GenusName";
-$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
+$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 $totalRows_getPosts = mysql_num_rows($getPosts);
 
 $current_char = '';

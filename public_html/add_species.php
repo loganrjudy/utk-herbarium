@@ -131,7 +131,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 				   GetSQLValueString($_POST['Seed'], "text"));
 
 		   
-		  $Result1 =mysqli_query($insertSQL, $Herbarium) or die(mysql_error());
+		  $Result1 =mysqli_query($Herbarium, $insertSQL) or die(mysql_error());
 
 		  $insertGoTo = "specieslist.php";
 		  if (isset($_SERVER['QUERY_STRING'])) {
@@ -172,7 +172,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblGenus ORDER BY GenusName ASC";
-		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -209,7 +209,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblFedStatus ORDER BY FedStatus ASC";
-		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -224,7 +224,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblStateStatus ORDER BY StateStatus ASC";
-		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>
@@ -239,7 +239,7 @@ $insertSQL = sprintf("INSERT INTO tblSpecies(SpeciesName, Author, Sp_Author, Woo
 		<?php 
 		 
 		$query_getPosts = "SELECT * FROM tblNWIStatus ORDER BY NWIStatus ASC";
-		$getPosts =mysqli_query($query_getPosts, $Herbarium) or die(mysql_error());
+		$getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysql_error());
 		$row_getPosts = mysql_fetch_assoc($getPosts);
 		$totalRows_getPosts = mysql_num_rows($getPosts);
 		?>

@@ -150,7 +150,7 @@ $insertSQL = sprintf("INSERT INTO tblFamily (FamilyName, CategoryID) VALUES (%s,
 				   GetSQLValueString($_POST['CategoryID'], "text"));
 
 		   
-		  $Result1 =mysqli_query($insertSQL, $Herbarium) or die(mysql_error());
+		  $Result1 =mysqli_query($Herbarium, $insertSQL) or die(mysql_error());
 
 		  $insertGoTo = "familylist.php";
 		  if (isset($_SERVER['QUERY_STRING'])) {
