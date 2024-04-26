@@ -29,10 +29,10 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-$varCategory = mysqli_real_escape_string($_GET["CategoryID"]);
-$varFamily = mysqli_real_escape_string($_GET["FamilyID"]);
-$varGenus = mysqli_real_escape_string($_GET["GenusID"]);
-$varSpecies = mysqli_real_escape_string($_GET["SpeciesID"]);
+$varCategory = mysqli_real_escape_string($Herbarium, $_GET["CategoryID"]);
+$varFamily = mysqli_real_escape_string($Herbarium, $_GET["FamilyID"]);
+$varGenus = mysqli_real_escape_string($Herbarium, $_GET["GenusID"]);
+$varSpecies = mysqli_real_escape_string($Herbarium, $_GET["SpeciesID"]);
 
 if ($varCategory != "" && $varFamily != "" && $varGenus != "") {
 
@@ -44,7 +44,7 @@ $selectCount = "SELECT COUNT(tblSpecies.SpeciesName) AS CountOfSpeciesName FROM 
 $getPosts =mysqli_query($Herbarium, $query_getPosts) or die(mysqli_error());
 $totalRows_getPosts = mysqli_num_rows($getPosts);
 	
-$varCount =mysqli_query($selectCount);
+$varCount =mysqli_query($Herbarium, $selectCount);
 $countSpecies = mysqli_fetch_assoc($varCount);
 }
 

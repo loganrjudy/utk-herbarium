@@ -32,12 +32,12 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-$varCategory = mysqli_real_escape_string($_GET["CategoryID"]);
-$varFamily = mysqli_real_escape_string($_GET["FamilyID"]);
-$varGenus = mysqli_real_escape_string($_GET["GenusID"]);
-$varSpecies = mysqli_real_escape_string($_GET["SpeciesID"]);
-$varPhotoName = mysqli_real_escape_string($_GET["PhotoNameID"]);
-$varPhotographerName = mysqli_real_escape_string($_GET["PhotographerNameID"]);
+$varCategory = mysqli_real_escape_string($Herbarium, $_GET["CategoryID"]);
+$varFamily = mysqli_real_escape_string($Herbarium, $_GET["FamilyID"]);
+$varGenus = mysqli_real_escape_string($Herbarium, $_GET["GenusID"]);
+$varSpecies = mysqli_real_escape_string($Herbarium, $_GET["SpeciesID"]);
+$varPhotoName = mysqli_real_escape_string($Herbarium, $_GET["PhotoNameID"]);
+$varPhotographerName = mysqli_real_escape_string($Herbarium, $_GET["PhotographerNameID"]);
 
 ?>
 

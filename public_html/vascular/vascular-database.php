@@ -32,10 +32,10 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-$varCategory = mysqli_real_escape_string($_GET["CategoryID"]);
-$varFamily = mysqli_real_escape_string($_GET["FamilyID"]);
-$varGenus = mysqli_real_escape_string($_GET["GenusID"]);
-$varSpecies = mysqli_real_escape_string($_GET["SpeciesID"]);
+$varCategory = mysqli_real_escape_string($Herbarium, $_GET["CategoryID"]);
+$varFamily = mysqli_real_escape_string($Herbarium, $_GET["FamilyID"]);
+$varGenus = mysqli_real_escape_string($Herbarium, $_GET["GenusID"]);
+$varSpecies = mysqli_real_escape_string($Herbarium, $_GET["SpeciesID"]);
 
 $numcount = 0;
 $seedcount = 0;

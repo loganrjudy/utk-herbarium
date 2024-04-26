@@ -32,11 +32,11 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
-$varCategory = mysqli_real_escape_string($_GET["CategoryID"]);
-$varFamily = mysqli_real_escape_string($_GET["FamilyID"]);
-$varGenus = mysqli_real_escape_string($_GET["GenusID"]);
-$varSpecies = mysqli_real_escape_string($_GET["SpeciesID"]);
-$varPhotoName = mysqli_real_escape_string($_GET["PhotoNameID"]);
+$varCategory = mysqli_real_escape_string($Herbarium, $_GET["CategoryID"]);
+$varFamily = mysqli_real_escape_string($Herbarium, $_GET["FamilyID"]);
+$varGenus = mysqli_real_escape_string($Herbarium, $_GET["GenusID"]);
+$varSpecies = mysqli_real_escape_string($Herbarium, $_GET["SpeciesID"]);
+$varPhotoName = mysqli_real_escape_string($Herbarium, $_GET["PhotoNameID"]);
 
 $numcount = 0;
 $seedcount = 0;
@@ -63,7 +63,7 @@ $totalRows_getPost1 = mysqli_num_rows($getPost1);
 
 $selectCount = "SELECT COUNT(tblSpecies.SpeciesName) AS CountOfSpeciesName FROM (tblGenus INNER JOIN tblSpecies ON tblGenus.GenusID = tblSpecies.GenusID) LEFT JOIN tblPhoto ON tblSpecies.SpeciesID = tblPhoto.SpeciesID WHERE (tblPhoto.PhotoName IS NOT NULL || tblPhoto.SeedPhotoName IS NOT NULL) && tblGenus.GenusName='$varGenus'";
 	
-$varCount =mysqli_query($selectCount);
+$varCount =mysqli_query($Herbarium, $selectCount);
 $countSpecies = mysqli_fetch_assoc($varCount);
 
 ?>

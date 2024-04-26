@@ -1,6 +1,6 @@
 <?php
 # FileName="Connection_php_mysql.htm"
-# Type="MYSQL"
+# Type="mysqli"
 # HTTP="true"
 $hostname_Herbarium = "127.0.0.1";
 $database_Herbarium = "herbariumweb_2024";
