@@ -266,7 +266,7 @@ $totalRows_getPost = mysqli_num_rows($getPost);
 					    
 						    <?php if ($varExist != TRUE) { ?>
 							  	<h4>There are no records found from the above search parameters. Please go back and try again.</h4>
-							<?php } mysql_free_result($getPost);?>
+							<?php } mysqli_free_result($getPost);?>
 									
 								  <p><br clear="all" />
 							      </p>

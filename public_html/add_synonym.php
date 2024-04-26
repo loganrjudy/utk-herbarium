@@ -159,7 +159,7 @@ $insertSQL1 = "INSERT INTO tblSynonym (Synonym) VALUES ('".mysqli_real_escape_st
 
 		 
 
-	if (mysql_query($insertSQL1, $Herbarium)) {
+	if (mysqli_query($Herbarium, $insertSQL1)) {
 		echo "<h4 align='center'>The synonym has been successfully added to the list.</h4>";
 	} else {
 		echo "<h4>Sorry, there was an error adding the synonym.</h4>";

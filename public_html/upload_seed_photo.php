@@ -150,7 +150,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 									
 						 
 									
-						if (mysql_query($insertSQL, $Herbarium)) {
+						if (mysqli_query($Herbarium, $insertSQL)) {
 							echo "Image was added successfully to the database.<br>";
 						} else {
 							echo "Sorry, there was an error adding the image to the database.<br>";

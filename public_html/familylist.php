@@ -167,7 +167,7 @@ $totalRows_getPosts = mysqli_num_rows($getPosts);
           </table>
           <br clear="all" />
           <?php 
-				$rows=mysqli_num_rows(mysql_query("select * from tblFamily"));
+				$rows=mysqli_num_rows(mysqli_query("select * from tblFamily"));
 				$total=ceil($rows/$limit);
 
 				if($id>1)

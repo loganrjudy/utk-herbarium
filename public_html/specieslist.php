@@ -272,7 +272,7 @@ $start=($id-1)*$limit;
           <br clear="all" />
           <?php  
 				if(mysqli_num_rows($getPosts) >= 50) {
-					$rows=mysqli_num_rows(mysql_query("select * from tblSpecies"));
+					$rows=mysqli_num_rows(mysqli_query("select * from tblSpecies"));
 					$total=ceil($rows/$limit);
 
 					if($id>1)

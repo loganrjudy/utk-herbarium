@@ -191,7 +191,7 @@ $species = $_POST['SpeciesID'];
 	
 			 
 
-			if (mysql_query($insertSQL, $Herbarium)) {
+			if (mysqli_query($Herbarium, $insertSQL)) {
 				echo "<h4 align='center'>The species and county(s) has been successfully added.</h4>";
 			} else {
 				echo "<h4>Sorry, there was an error adding the species and county(s).</h4>";

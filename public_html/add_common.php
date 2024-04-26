@@ -159,7 +159,7 @@ $insertSQL1 = "INSERT INTO tblCommonName (CommonName) VALUES ('".mysqli_real_esc
 
 		 
 
-	if (mysql_query($insertSQL1, $Herbarium)) {
+	if (mysqli_query($Herbarium, $insertSQL1)) {
 		echo "<h4 align='center'>The common name has been successfully added.</h4>";
 	} else {
 		echo "<h4>Sorry, there was an error adding the common name.</h4>";

@@ -2,9 +2,9 @@
 # FileName="Connection_php_mysql.htm"
 # Type="MYSQL"
 # HTTP="true"
-$hostname_Herbarium = "mariadbx0.oit.utk.edu";
-$database_Herbarium = "herbariumweb_wordpress";
+$hostname_Herbarium = "127.0.0.1";
+$database_Herbarium = "herbariumweb_2024";
 $username_Herbarium = "herbariumweb";
-$password_Herbarium = "Jup1t3r!";
-$Herbarium = mysql_pconnect($hostname_Herbarium, $username_Herbarium, $password_Herbarium) or trigger_error(mysqli_error(),E_USER_ERROR); 
+$password_Herbarium = "C0ll3ct1on$2022!";
+$Herbarium = mysqli_connect($hostname_Herbarium, $username_Herbarium, $password_Herbarium, $database_Herbarium); 
 ?>

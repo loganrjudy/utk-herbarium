@@ -88,7 +88,7 @@ $idx = 1;
 
 $num_rows = $num_genus / $num_columns;
 
-while ($row = mysql_fetch_array($getPosts))
+while ($row = mysqli_fetch_array($getPosts))
 	{
 	  $row_id = $idx % $num_rows;
 	  $rows[$row_id] .= "<td><a href=\"vascular-browse-genus-results.php?GenusName=" . $row['GenusName'] . "\">" . $row['GenusName'] . "</a></td>"; 

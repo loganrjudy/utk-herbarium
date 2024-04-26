@@ -186,7 +186,7 @@ $insertSQL1 = "INSERT INTO tblLinkSynonym (SpeciesID, SynID) VALUES ('$SpeciesID
 
 		 
 
-	if (mysql_query($insertSQL1, $Herbarium)) {
+	if (mysqli_query($Herbarium, $insertSQL1)) {
 		echo "<h4 align='center'>The synonym has been successfully added to the species.</h4>";
 	} else {
 		echo "<h4>Sorry, there was an error adding the synonym.</h4>";

@@ -177,7 +177,7 @@ $start=($id-1)*$limit;
           <?php } ?>
           <?php 
 				if(mysqli_num_rows($getPosts) >= 100) {
-					$rows=mysqli_num_rows(mysql_query("select * from tblCommonName"));
+					$rows=mysqli_num_rows(mysqli_query("select * from tblCommonName"));
 					$total=ceil($rows/$limit);
 
 					if($id>1)

@@ -186,7 +186,7 @@ $insertSQL1 = "INSERT INTO tblLinkCommName (SpeciesID, CommID) VALUES ('$species
 
 		 
 
-	if (mysql_query($insertSQL1, $Herbarium)) {
+	if (mysqli_query($Herbarium, $insertSQL1)) {
 		echo "<h4 align='center'>The common name has been successfully associated to the species.</h4>";
 	} else {
 		echo "<h4>Sorry, there was an error adding the common name.</h4>";
