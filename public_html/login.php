@@ -1,8 +1,12 @@
+<?php error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
 <?php require_once('Connections/herbarium.php'); ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 {
+ global $Herbarium;
   if (PHP_VERSION < 6) {
     $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
   }
@@ -60,7 +64,7 @@ if (isset($_POST['username'])) {
     GetSQLValueString($loginUsername, "text"), GetSQLValueString($password, "text")); 
    
   $LoginRS =mysqli_query($Herbarium, $LoginRS__query)
- or die(mysqli_error());
+ or die("Database error: " . mysqli_error($Herbarium));
   $loginFoundUser = mysqli_num_rows($LoginRS);
   if ($loginFoundUser) {
      $loginStrGroup = "";
@@ -70,7 +74,7 @@ if (isset($_POST['username'])) {
     $_SESSION['MM_Username'] = $loginUsername;
     $_SESSION['MM_UserGroup'] = $loginStrGroup;	      
 
-    if (isset($_SESSION['PrevUrl']) && true) {
+    if (isset($_SESSION['PrevUrl'])) {
       $MM_redirectLoginSuccess = $_SESSION['PrevUrl'];	
     }
     header("Location: " . $MM_redirectLoginSuccess );

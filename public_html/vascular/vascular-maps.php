@@ -4,7 +4,7 @@
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 {
-
+	global $Herbarium;
   $theValue = function_exists("mysqli_real_escape_string") ? mysqli_real_escape_string($Herbarium, $theValue) : mysqli_escape_string($Herbarium, $theValue);
 
   switch ($theType) {
